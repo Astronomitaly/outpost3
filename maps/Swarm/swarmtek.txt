@@ -1,0 +1,439 @@
+; Swarm Tech, By Mcshay and Sirbomber
+
+;******************************************************************************
+; Researchable Techs
+;******************************************************************************
+
+BEGIN_TECH "Medium Combat Chassis" 05201
+    CATEGORY        4
+    DESCRIPTION     "Vehicle Factories may now produce Panthers.  _______________________________________ Our new Panther medium combat chassis will help reinforce our defenses.  While slower than the Lynx, its enhanced durability and heavier armor will help protect our colony."
+    TEASER          "Allows production of Panthers at the Vehicle Factory.  _______________________________________ Our Guard Posts and Lynx light combat chassis has proven to be an effective defense.  However, if we are to survive this eternal onslaught, we must develop a new combat chassis with heavier armor and increased durability."
+    COST            1800
+    MAX_SCIENTISTS  12
+    LAB             2
+END_TECH
+
+BEGIN_TECH "Improved Defenses" 08306
+    CATEGORY        2
+    DESCRIPTION     "Combat Chassis and Guard Post hit points raised.  _______________________________________ Using a new alloy, our Guard Posts and Lynx now have reinforced armor with no impairment to their original abilities.  We have accomplished this without increasing their manufacturing costs."
+    TEASER          "Raises all Combat Chassis and Guard Post hit points.  _______________________________________ Our Lynx and Guard Posts, while effective, are not limitless.  This project seeks to increase the armor of our defenses without compromising their current abilities."
+    IMPROVE_DESC    "Improved hit points"
+    COST            1400
+    MAX_SCIENTISTS  12
+    LAB             2
+    UNIT_PROP TOWER_GUARD Hit_Points 7500
+    UNIT_PROP LIGHT_TANK Hit_Points 2500
+    UNIT_PROP MED_TANK Hit_Points 3250
+    UNIT_PROP BIG_TANK Hit_Points 5000
+END_TECH
+
+BEGIN_TECH "Enhanced Vehicle Power Generation" 08307
+    CATEGORY        2
+    DESCRIPTION     "Cargo Truck, ConVec, Robo-Dozer, and Earthworker speeds improved.  _______________________________________ Our engineers have developed a new drive train for our non-combat vehicles.  This new design provides more power to the vehicle's movement systems."
+    TEASER          "Improves Cargo Truck, ConVec, Robo-Dozer, and Earthworker speeds.  _______________________________________ Many of our non-combat vehicles, such as the Earthworker, are hindered by their lack of mobility.  This project seeks to enhance the speed of many of our support vehicles."
+    IMPROVE_DESC    "Increased speed"
+    COST            1100
+    MAX_SCIENTISTS  11
+    LAB             2
+    UNIT_PROP BIG_TRUCK Move_Speed 2
+    UNIT_PROP CON_TRUCK Move_Speed 2
+    UNIT_PROP WALL_TRUCK Move_Speed 3
+END_TECH
+
+BEGIN_TECH "Enhanced Self-Destruct Mechanisms" 02705
+    CATEGORY        2
+    DESCRIPTION     "Self-destruct damage increased.  _______________________________________ All of our vehicles are now equipped with a more powerful self-destruct mechanism.  Our research has effectively quadrupled the explosive power of self destructing our vehicles.  This should only be used as a last resort."
+    TEASER          "Increases self-destruct damage.  _______________________________________ One of our scientists has proposed a strange idea.  He believes that if we were to redesign the self-destruct mechanisms in our vehicles, they could be used as powerful battering rams as a last resort."
+    COST            1300
+    MAX_SCIENTISTS  9
+    LAB             2
+    UNIT_PROP SELF_DESTRUCT Concussion_Damage 2000
+    UNIT_PROP SELF_DESTRUCT Penetration_Damage 4000
+    UNIT_PROP SCUTTLE_DESTRUCT Concussion_Damage 600
+    UNIT_PROP SCUTTLE_DESTRUCT Penetration_Damage 400
+END_TECH
+
+BEGIN_TECH "Heavy Combat Chassis" 08201
+    CATEGORY        4
+    DESCRIPTION     "Vehicle Factories may now produce Tigers.  _______________________________________ The Tiger heavy combat chassis is a slow, heavily armored battle tank with a dual-turret weapons system.  In other words, the Tiger has two weapons.  This development should greatly increase of chances of survival."
+    TEASER          "Allows production of Tigers at the Vehicle Factory.  _______________________________________ While the Panther medium combat chassis has proven to be an invaluable defensive asset, we need a more powerful combat chassis.  This project seeks to develop a heavy combat chassis capable of being equipped with a dual-turret weapons system."
+    REQUIRES        05201
+    REQUIRES        08306
+    REQUIRES        08307
+    COST            2400
+    MAX_SCIENTISTS  14
+    LAB             2
+END_TECH
+
+BEGIN_TECH "Redesigned Weapon Power Systems" 03402
+    CATEGORY        7
+    DESCRIPTION     "Weapon damage increased.  _______________________________________ Our weapons turrets are now powered by a small cool fusion generator.  This affects each weapons turret by either increasing the firepower of the weapon of increasing its rate of fire."
+    TEASER          "Increases weapon damage.  _______________________________________ Our work in the Enhanced Vehicle Power Generation project has led to a new potential technology that would enhance our defense.  Our scientists believe we can increase the damage on many of our weapons."
+    REQUIRES        08307
+    COST            1400
+    MAX_SCIENTISTS  10
+    LAB             2
+END_TECH
+
+BEGIN_TECH "Reinforced Armor Plating" 10303
+    CATEGORY        4
+    DESCRIPTION     "Guard Post, Lynx, Panther, and Tiger armor upgraded.  _______________________________________ All of our combat vehicles have been fitted with enhanced armor made of a material mined from New Terra's moon.  This light-weight alloy is extremely durable and will enable us to put up our final defense."
+    TEASER          "Upgrades Guard Post, Lynx, Panther, and Tiger armor.  _______________________________________ Our defenses are slowly failing.  This project seeks to give our combat vehicles one last decisive enhancement that will enable us to defend our battered colony."
+    REQUIRES        08201
+    IMPROVE_DESC    "Improved armor"
+    COST            2800
+    MAX_SCIENTISTS  14
+    LAB             2
+    UNIT_PROP TOWER_GUARD Armor 5
+    UNIT_PROP LIGHT_TANK Armor 3
+    UNIT_PROP MED_TANK Armor 4
+    UNIT_PROP BIG_TANK Armor 5
+END_TECH
+
+BEGIN_TECH "Unstable Research Programs" 10001
+    CATEGORY        1
+    DESCRIPTION     "The Advanced Lab can be constructed, however it will house very dangerous experiments.  _______________________________________ All conventional research programs have been completed. With the swarm becoming ever stronger, our scientists have turned to more radical research programs."
+    TEASER          "Our scientists propose a new Advanced Lab to conduct very dangerous research programs.  _______________________________________ Even with the completion of all standard researches, we are still not strong enough to repel the swarm. Some scientists wish to try a few potentialy useful dangerous research programs."
+    REQUIRES        05201
+    REQUIRES        08306
+    REQUIRES        08307
+    REQUIRES        02705
+    REQUIRES        08201
+    REQUIRES        03402
+    REQUIRES        10303
+    COST            3000
+    MAX_SCIENTISTS  14
+    LAB             2
+END_TECH
+
+BEGIN_TECH "Atmospheric Conditioning" 10002
+    CATEGORY        10
+    DESCRIPTION     "Experiments have been conducted on New Terra's atmosphere.  _______________________________________ Our scientists have tried to change New Terra's atmosphere to better suit the Thors Hammer weapon."
+    TEASER          "Recent studies have shown that there may be a way to improve our Thors Hammer's rate of fire.  _______________________________________ Recent studies of the developing atmosphere of New Terra have shown a trend twards more favorable conditions for the Thors Hammer weapon. We may be able to speed these changes."
+    PLYMOUTH_COST   -1
+    EDEN_COST       2500
+    MAX_SCIENTISTS  15
+    LAB             3
+END_TECH
+
+BEGIN_TECH "Plym techz" 10003
+    CATEGORY        10
+    DESCRIPTION     "[14:22:40] [+Betaray] camon, I just want to have the ply uber tech, how hard could that be to make?  _______________________________________ [14:23:22] [+Betaray] who cares, just put a placeholder description in it"
+    TEASER          "[14:22:40] [+Betaray] camon, I just want to have the ply uber tech, how hard could that be to make?  _______________________________________ [14:23:22] [+Betaray] who cares, just put a placeholder description in it"
+    PLYMOUTH_COST   2500
+    EDEN_COST       -1
+    MAX_SCIENTISTS  15
+    LAB             3
+END_TECH
+
+;******************************************************************************
+; Player Techs
+;******************************************************************************
+
+BEGIN_TECH "Player Strength Increaser" 11001
+    CATEGORY        0
+    COST            -1
+    UNIT_PROP TOWER_GUARD Hit_Points 5000
+    UNIT_PROP TOWER_GUARD Sight_Range 9
+    UNIT_PROP LIGHT_TANK Hit_Points 1000
+    UNIT_PROP LIGHT_TANK Move_Speed 2
+    UNIT_PROP MED_TANK Hit_Points 2000
+    UNIT_PROP BIG_TANK Hit_Points 3000
+    UNIT_PROP REPAIR_TRUCK Common_Required 350
+    UNIT_PROP REPAIR_TRUCK Production_Rate 96
+    UNIT_PROP SPIDER Production_Rate 96
+    UNIT_PROP BIG_TRUCK Common_Required 200
+    UNIT_PROP CON_TRUCK Common_Required 15
+    UNIT_PROP CON_TRUCK Production_Rate 96
+    UNIT_PROP WALL_TRUCK Common_Required 250
+    UNIT_PROP WALL_TRUCK Production_Rate 96
+    UNIT_PROP BULL_DOZER Common_Required 150
+    UNIT_PROP BULL_DOZER Production_Rate 96
+    UNIT_PROP GARAGE Production_Capacity 96
+    UNIT_PROP GARAGE Common_Required 500
+    UNIT_PROP TOWER_LIGHT Common_Required 50
+    UNIT_PROP TOWER_LIGHT Sight_Range 9
+    UNIT_PROP FACT_ANDROID Production_Capacity 96
+    UNIT_PROP FACT_STRUCTURE Production_Capacity 96
+    UNIT_PROP FACT_VEHICLE Production_Capacity 96
+    UNIT_PROP SPACEPORT Production_Capacity 96
+    UNIT_PROP FOAM Rate_Of_Fire 150
+    UNIT_PROP CANNON Rate_Of_Fire 150
+    UNIT_PROP GORF Improved 1
+    UNIT_PROP GORF Common_Required 250
+    UNIT_PROP TRADE Common_Required 250
+    UNIT_PROP LASER Common_Required 100
+    UNIT_PROP MICROWAVE Common_Required 100
+    UNIT_PROP FOAM Common_Required 300
+    UNIT_PROP FOAM Rare_Required 100
+    UNIT_PROP RAIL_GUN Common_Required 250
+    UNIT_PROP CANNON Common_Required 250
+    UNIT_PROP TURRET_DESTRUCT Common_Required 150
+    UNIT_PROP TURRET_DESTRUCT_ADV Common_Required 500
+    UNIT_PROP SPAM Common_Required 700
+    UNIT_PROP SPAM Rare_Required 275
+    UNIT_PROP ACID Common_Required 500
+    UNIT_PROP THORS_HAMMER Common_Required 700
+    UNIT_PROP THORS_HAMMER Rare_Required 200
+    UNIT_PROP COMMAND Common_Required 600
+    UNIT_PROP ROBOT_COMMAND Common_Required 300
+    UNIT_PROP TUBE Common_Required 5
+    UNIT_PROP DIRT Common_Required 2000
+    UNIT_PROP DIRT Rare_Required 750
+    UNIT_PROP SOLAR Hit_Points 3000
+    UNIT_PROP SOLAR Armor 5
+    UNIT_PROP TOWER_GUARD Power_Required 0
+    UNIT_PROP STORAGE_ORE Storage_Capacity 999999
+    UNIT_PROP STORAGE_RARE Storage_Capacity 999999
+END_TECH
+
+;******************************************************************************
+; AI Techs
+;******************************************************************************
+
+BEGIN_TECH "AI Strength Decreaser" 12001
+    CATEGORY        0
+    COST            -1
+    UNIT_PROP SCORPION Hit_Points 30
+    UNIT_PROP SCORPION_WEAPON Rate_of_Fire 50
+    UNIT_PROP EMP Penetration_Damage 40
+    UNIT_PROP EMP Rate_Of_Fire 400
+    UNIT_PROP FOAM Rate_Of_Fire 180
+    UNIT_PROP FOAM Penetration_Damage 30
+END_TECH
+
+BEGIN_TECH "AI Strength Increaser1" 12002
+    CATEGORY        0
+    COST            -1
+    UNIT_PROP SCORPION Hit_Points 120
+    UNIT_PROP SCORPION Move_Speed 3
+    UNIT_PROP SCORPION Armor 2
+END_TECH
+
+BEGIN_TECH "AI Strength Increaser2" 12003
+    CATEGORY        0
+    COST            -1
+    UNIT_PROP SCORPION Hit_Points 350
+    UNIT_PROP SCORPION Move_Speed 2
+    UNIT_PROP SCORPION Armor 3
+    UNIT_PROP ACID Rate_of_Fire 190
+    UNIT_PROP THORS_HAMMER Rate_of_Fire 190
+END_TECH
+
+BEGIN_TECH "AI Strength Increaser3" 12004
+    CATEGORY        0
+    COST            -1
+    UNIT_PROP SCORPION Hit_Points 500
+    UNIT_PROP SCORPION Move_Speed 1
+    UNIT_PROP SCORPION Armor 4
+    UNIT_PROP LASER Penetration_Damage 75
+    UNIT_PROP MICROWAVE Penetration_Damage 75
+    UNIT_PROP EMP Rate_of_Fire 100
+    UNIT_PROP FOAM Rate_of_Fire 50
+    UNIT_PROP SCORPION_WEAPON Penetration_Damage 75
+    UNIT_PROP ACID Rate_of_Fire 150
+    UNIT_PROP THORS_HAMMER Rate_of_Fire 150
+END_TECH
+
+;******************************************************************************
+; Shared Units/Things
+;******************************************************************************
+
+BEGIN_TECH "Tube" 02114
+    CATEGORY        0
+    COST            0
+END_TECH
+
+BEGIN_TECH "Walls, Concrete" 05106
+    CATEGORY        0
+    COST            0
+END_TECH 
+
+BEGIN_TECH "Guard Post" 03801
+    CATEGORY        0
+    COST            0
+END_TECH
+
+BEGIN_TECH "Garage" 05102
+    CATEGORY        0
+    COST            0
+END_TECH
+
+BEGIN_TECH "Light Tower" 02107
+    CATEGORY        0
+    COST            0
+END_TECH
+
+BEGIN_TECH "Command Center" 02103
+    CATEGORY        0
+    COST            0
+END_TECH
+
+BEGIN_TECH "Standard Lab" 03101
+    CATEGORY        0
+    COST            0
+END_TECH
+
+BEGIN_TECH "Emergency Response Systems" 03301
+    CATEGORY        0
+    COST            0
+END_TECH
+
+BEGIN_TECH "Metals Reclamation" 03302
+    CATEGORY        0
+    COST            0
+END_TECH
+
+BEGIN_TECH "Mobile Weapons Platform" 03851
+    CATEGORY        0
+    COST            0
+END_TECH
+
+BEGIN_TECH "Laser Turret" 03602
+    CATEGORY        0
+    EDEN_COST       0
+    PLYMOUTH_COST   -1
+END_TECH
+
+BEGIN_TECH "Microwave Turret" 03603
+    CATEGORY        0
+    EDEN_COST       -1
+    PLYMOUTH_COST   0
+END_TECH
+
+BEGIN_TECH "Multiple Mine Projectile System" 07103
+    CATEGORY        0
+    EDEN_COST       -1
+    PLYMOUTH_COST   0
+END_TECH
+
+BEGIN_TECH "Directional Magnetic Fields" 05506
+    CATEGORY        0
+    EDEN_COST       0
+    PLYMOUTH_COST   -1
+END_TECH
+
+BEGIN_TECH "Explosive Charges" 07102
+    CATEGORY        0
+    COST            0
+END_TECH
+
+BEGIN_TECH "Dissipating Adhesives" 05202
+    CATEGORY        7
+    EDEN_COST       -1
+    PLYMOUTH_COST   0
+END_TECH
+
+BEGIN_TECH "Artificial Lightning" 10102
+    CATEGORY        0
+    EDEN_COST       0
+    PLYMOUTH_COST   -1
+END_TECH
+
+BEGIN_TECH "High-Powered Explosives" 08203
+    CATEGORY        0
+    EDEN_COST       -1
+    PLYMOUTH_COST   0
+END_TECH
+
+BEGIN_TECH "Acid Weaponry" 08503
+    CATEGORY        0
+    EDEN_COST       0
+    PLYMOUTH_COST   -1
+END_TECH
+
+BEGIN_TECH "Cargo Truck" 03604
+    CATEGORY        0
+    COST            0
+END_TECH
+
+BEGIN_TECH "Construction Vehicle" 03605
+    CATEGORY        0
+    COST            0
+END_TECH
+
+BEGIN_TECH "Earthworks Constructor" 03606
+    CATEGORY        0
+    COST            0
+END_TECH
+
+BEGIN_TECH "Repair vehicle" 05401
+    CATEGORY        0
+    EDEN_COST       0
+    PLYMOUTH_COST   -1
+END_TECH 
+
+BEGIN_TECH "Rocket Launcher" 05602
+    CATEGORY        0
+    EDEN_COST       -1
+    PLYMOUTH_COST   0
+END_TECH
+
+BEGIN_TECH "Lab, Advanced" 05104
+    CATEGORY        0
+    COST            0
+    REQUIRES        10001
+END_TECH
+
+;******************************************************************************
+; Dummy Techs
+;******************************************************************************
+
+BEGIN_TECH "03402Damage" 02701
+    CATEGORY        0
+    REQUIRES        03402
+    IMPROVE_DESC    "Increased weapon damage"
+    COST            0
+    UNIT_PROP LASER Penetration_Damage 45
+    UNIT_PROP MICROWAVE Concussion_Damage 30
+    UNIT_PROP MICROWAVE Penetration_Damage 30
+    UNIT_PROP SPAM Concussion_Damage 50
+    UNIT_PROP SPAM Penetration_Damage 50
+END_TECH
+
+BEGIN_TECH "03402Cooldown" 02702
+    CATEGORY        0
+    REQUIRES        03402
+    IMPROVE_DESC    "Increased rate of fire"
+    COST            0
+    UNIT_PROP RAIL_GUN Rate_Of_Fire 65
+    UNIT_PROP ACID Rate_Of_Fire 120
+    UNIT_PROP THORS_HAMMER Rate_Of_Fire 150
+    UNIT_PROP FOAM Rate_Of_Fire 130
+    UNIT_PROP CANNON Rate_Of_Fire 45
+END_TECH
+
+BEGIN_TECH "Thors Rate of Fire Increased" 13001
+    CATEGORY        1
+    COST            1
+    LAB             1
+    DESCRIPTION     "Thors Hammer rate of fire improved.  _______________________________________ Our Thors Hammer weapon's rate of fire has been improved through atmospheric experimentation."
+    TEASER          "Damage to the enviroment avoided.  _______________________________________ Our scientists were able to improve our Thors Hammer's rate of fire without damaging the enviroment."
+    UNIT_PROP THORS_HAMMER Rate_Of_Fire 80
+END_TECH
+
+BEGIN_TECH "Electrical Storms Created!" 13002
+    CATEGORY        1
+    COST            1
+    LAB             1
+    DESCRIPTION     "Electrical storms created!  _______________________________________ Our atmospheric experiments have disrupted the atmosphere! Electrical storms are expected to form frequently!"
+    TEASER          "Enviromental damage created!  _______________________________________ Our scientists were unable to avoid damaging the enviroment in their attempts to improve our Thors Hammer's rate of fire!"
+END_TECH
+
+BEGIN_TECH "HIIII" 13004
+    CATEGORY        1
+    COST            1
+    LAB             1
+    DESCRIPTION     "LALALA  _______________________________________ OAOAOAOA"
+    TEASER          "HAPPY DAY  _______________________________________ YUM SODA"
+    UNIT_PROP CANNON Rate_Of_Fire 15
+END_TECH
+
+BEGIN_TECH "LOLZ" 13005
+    CATEGORY        1
+    COST            1
+    LAB             1
+    DESCRIPTION     "DAN'S DOG CAN MAKE MORE ORE  _______________________________________ THE ORES!!!!"
+    TEASER          "SANTAWALKING PWNS YOU  _______________________________________ rununununNNN"
+    UNIT_PROP CANNON Rate_Of_Fire 1000
+END_TECH

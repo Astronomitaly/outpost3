@@ -1,0 +1,227 @@
+; Scout Rush Techtree by Sirbomber
+; This actually isn't a techtree really...
+; Basically just makes everything free.
+; What, you were expecting a work of art?
+; Maybe next time.
+
+;******************************************************************************
+; Stuff
+;******************************************************************************
+
+BEGIN_TECH "Tube" 02114
+    CATEGORY        2
+    COST            0
+END_TECH
+
+
+BEGIN_TECH "Scout" 03601
+    CATEGORY        4
+    COST            0
+END_TECH
+
+BEGIN_TECH "Earthworker" 03606
+    CATEGORY        4
+    COST            0
+END_TECH
+
+BEGIN_TECH "Guard Post" 03801
+    CATEGORY        7
+    COST            0
+END_TECH
+
+BEGIN_TECH "Mobile Weapons Platform" 03851
+    CATEGORY        4
+    COST            -1
+END_TECH
+
+BEGIN_TECH "Laser Turret" 03602
+    CATEGORY        7
+    EDEN_COST       0
+    PLYMOUTH_COST   -1
+END_TECH
+
+BEGIN_TECH "Microwave Turret" 03603
+    CATEGORY        7
+    EDEN_COST       -1
+    PLYMOUTH_COST   0
+END_TECH
+
+BEGIN_TECH "Walls, Concrete" 05106
+    CATEGORY        2
+    COST            0
+END_TECH 
+
+BEGIN_TECH "Medium Resources" 05505
+    CATEGORY        7
+    COST           -1
+END_TECH
+
+BEGIN_TECH "Directional Magnetic Fields" 05506
+    CATEGORY        7
+    REQUIRES        05505
+    EDEN_COST       0
+    PLYMOUTH_COST   -1
+END_TECH
+
+BEGIN_TECH "Dissipating Adhesives" 05202
+    CATEGORY        7
+    REQUIRES        10000
+    EDEN_COST       -1
+    PLYMOUTH_COST   0
+END_TECH
+
+BEGIN_TECH "Rocket Launcher" 05602
+    CATEGORY        7
+    REQUIRES        05505
+    EDEN_COST       -1
+    PLYMOUTH_COST   0
+END_TECH
+
+BEGIN_TECH "High Resources" 10000
+    CATEGORY        7
+    COST           -1
+END_TECH
+
+BEGIN_TECH "Artificial Lightning" 10102
+    CATEGORY        7
+    REQUIRES        10000
+    EDEN_COST       0
+    PLYMOUTH_COST   -1
+END_TECH
+
+BEGIN_TECH "Explosive Charges" 07102
+    CATEGORY        7
+    COST            0
+END_TECH
+
+BEGIN_TECH "High-Powered Explosives" 08203
+    CATEGORY        7
+    REQUIRES        10000
+    EDEN_COST       -1
+    PLYMOUTH_COST   0
+END_TECH
+
+BEGIN_TECH "Construction Vehicle" 03605
+    CATEGORY        4
+    COST            0
+END_TECH
+
+BEGIN_TECH "Self Destruct Upgrade" 02705
+    CATEGORY        7
+    COST            0
+    UNIT_PROP SELF_DESTRUCT Concussion_Damage 5000
+    UNIT_PROP SELF_DESTRUCT Penetration_Damage 5000
+    UNIT_PROP SCUTTLE_DESTRUCT Concussion_Damage 5000
+    UNIT_PROP SCUTTLE_DESTRUCT Penetration_Damage 5000
+END_TECH
+
+BEGIN_TECH "Scout Techz" 10001
+    CATEGORY        4
+    COST            0
+    UNIT_PROP SCOUT Sight_Range 8
+    UNIT_PROP SCOUT Move_Speed 1
+    UNIT_PROP SCOUT Hit_Points 250
+    UNIT_PROP SCOUT Common_Required 0
+END_TECH
+
+BEGIN_TECH "Free Stuff" 10002
+    CATEGORY        1
+    COST            0
+    UNIT_PROP COMMAND Hit_Points 500
+    UNIT_PROP FACT_VEHICLE Hit_Points 9999999
+    UNIT_PROP FACT_VEHICLE Production_Capacity 10
+    UNIT_PROP FACT_STRUCTURE Hit_Points 9999999
+    UNIT_PROP FACT_STRUCTURE Production_Capacity 10
+    UNIT_PROP TOWER_GUARD Hit_Points 7500
+    UNIT_PROP TOWER_GUARD Armor 5
+    UNIT_PROP COMMAND Workers_Required 0
+    UNIT_PROP COMMAND Penetration_Damage 0
+    UNIT_PROP FACT_VEHICLE Workers_Required 0
+    UNIT_PROP FACT_VEHICLE Power_Required 0
+    UNIT_PROP FACT_STRUCTURE Workers_Required 0
+    UNIT_PROP FACT_STRUCTURE Power_Required 0
+    UNIT_PROP TOWER_GUARD Power_Required 0
+    UNIT_PROP TOWER_GUARD Common_Required 0
+    UNIT_PROP TRADE Hit_points 9999999
+    UNIT_PROP TRADE Workers_required 0
+    UNIT_PROP TRADE Power_required 0
+END_TECH
+
+BEGIN_TECH "ConVec Stuff" 10003
+    CATEGORY        4
+    COST            0
+    UNIT_PROP CON_TRUCK Production_Rate 10
+    UNIT_PROP CON_TRUCK Move_Speed 1
+    UNIT_PROP CON_TRUCK Hit_Points 5
+    UNIT_PROP CON_TRUCK Common_Required 0
+END_TECH
+
+BEGIN_TECH "Gunz" 10004
+    CATEGORY        7
+    COST            0
+    UNIT_PROP LASER Penetration_Damage 60
+    UNIT_PROP LASER Penetration_Damage 60
+    UNIT_PROP MICROWAVE Concussion_Damage 70
+    UNIT_PROP MICROWAVE Penetration_Damage 70
+    UNIT_PROP RAIL_GUN Concussion_Damage 200
+    UNIT_PROP RAIL_GUN Penetration_Damage 200
+    UNIT_PROP CANNON Concussion_Damage 150
+    UNIT_PROP CANNON Penetration_Damage 150
+    UNIT_PROP THORS_HAMMER Concussion_Damage 5000
+    UNIT_PROP THORS_HAMMER Penetration_Damage 5000
+    UNIT_PROP LASER Rate_Of_Fire 10
+    UNIT_PROP MICROWAVE Rate_Of_Fire 20
+    UNIT_PROP RAIL_GUN Rate_Of_Fire 60
+    UNIT_PROP CANNON Rate_Of_Fire 50
+    UNIT_PROP THORS_HAMMER Rate_Of_Fire 120
+    UNIT_PROP LASER Common_Required 0
+    UNIT_PROP MICROWAVE Common_Required 0
+    UNIT_PROP RAIL_GUN Common_Required 0
+    UNIT_PROP CANNON Common_Required 0
+    UNIT_PROP THORS_HAMMER Common_Required 0
+    UNIT_PROP THORS_HAMMER Rare_Required 0
+    UNIT_PROP FOAM Common_Required 0
+    UNIT_PROP TURRET_DESTRUCT Common_Required 0
+    UNIT_PROP TURRET_DESTRUCT_ADV Common_Required 0
+    UNIT_PROP TURRET_DESTRUCT_ADV Rare_Required 0
+    UNIT_PROP SELF_DESTRUCT Common_Required 0
+    UNIT_PROP SELF_DESTRUCT_ADV Common_Required 0
+    UNIT_PROP SELF_DESTRUCT_ADV Rare_Required 0
+    UNIT_PROP FOAM Concussion_Damage 1500
+    UNIT_PROP FOAM Penetration_Damage 5
+    UNIT_PROP FOAM Rate_Of_Fire 90
+    UNIT_PROP ACID Common_required 0
+    UNIT_PROP ACID Rare_required 0
+    UNIT_PROP SPAM Common_required 0
+    UNIT_PROP SPAM Rare_required 0
+END_TECH
+
+BEGIN_TECH "Earthworker Stuff" 10005
+    CATEGORY        4
+    COST            0
+    UNIT_PROP WALL_TRUCK Production_Rate 65
+    UNIT_PROP WALL_TRUCK Move_Speed 2
+    UNIT_PROP WALL_TRUCK Hit_Points 5
+    UNIT_PROP WALL_TRUCK Common_Required 0
+    UNIT_PROP TUBE Common_Required 0
+    UNIT_PROP WALL Common_Required 0
+END_TECH
+
+BEGIN_TECH "Lynx Stuff" 10006
+    CATEGORY        4
+    COST            0
+    UNIT_PROP LIGHT_TANK Move_Speed 4
+    UNIT_PROP LIGHT_TANK Hit_Points 50
+    UNIT_PROP LIGHT_TANK Common_Required 0
+    UNIT_PROP MED_TANK Common_required 0
+    UNIT_PROP MED_TANK Rare_required 0
+    UNIT_PROP BIG_TANK Common_required 0
+    UNIT_PROP BIG_TANK Rare_required 0
+END_TECH
+
+; Enjoy, it's mindless fun.
+
+;******************************************************************************
+; Notes
+;******************************************************************************
+; Mobile Weapons Platform is researched if Morale Steady is enabled.
