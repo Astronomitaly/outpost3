@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>OUTPOST II: Divided Destiny — Modern Remake</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- TOOLTIP -->
+<div id="tooltip"></div>
+
+<!-- ═══════════════════════════════════════ -->
+<!-- START SCREEN                           -->
+<!-- ═══════════════════════════════════════ -->
+<div id="start-screen">
+  <div class="start-logo">OUTPOST&nbsp;II</div>
+  <div class="start-subtitle">DIVIDED DESTINY — MODERN REMAKE</div>
+
+  <div class="start-lore">
+    Year 2435. The colony ship <em>Conestoga</em> carried humanity's last million survivors
+    to New Terra after <em>Vulcan's Hammer</em> obliterated Earth. But a secret terraforming
+    experiment has produced a deadly mutation — a microbe that consumes all organic matter,
+    spreading inexorably across the planet. The colonists call it <strong>the Blight</strong>.
+    Eden and Plymouth, the two rival colonies, have precious little time to build a
+    starship and escape. This is the story of Axen Moon and Emma Burke.
+  </div>
+
+  <div class="faction-row">
+    <div class="faction-card fc-eden" onclick="Game.startGame('eden')">
+      <span class="fc-emblem">◈</span>
+      <div class="fc-name" style="color:var(--eden-light)">EDEN</div>
+      <div class="fc-desc">
+        Led by Axen Moon. Superior military technology and accelerated research.
+        The eugenics regime casts a shadow over colony morale.
+      </div>
+      <div class="fc-stats">
+        <span class="fc-stat" style="color:var(--eden-light)">TECH ▲</span>
+        <span class="fc-stat" style="color:#6a7a8a">MORALE ▼</span>
+        <span class="fc-stat" style="color:var(--eden-light)">SCI/T ▲</span>
+      </div>
+    </div>
+
+    <div class="faction-card fc-ply" onclick="Game.startGame('plymouth')">
+      <span class="fc-emblem">◆</span>
+      <div class="fc-name" style="color:var(--ply-light)">PLYMOUTH</div>
+      <div class="fc-desc">
+        Led by Emma Burke. Free, resilient colonists with strong social cohesion.
+        Research is slower but morale is a natural advantage.
+      </div>
+      <div class="fc-stats">
+        <span class="fc-stat" style="color:var(--ply-light)">MORALE ▲</span>
+        <span class="fc-stat" style="color:var(--ply-light)">SOCIAL ▲</span>
+        <span class="fc-stat" style="color:#6a7a8a">TECH ▼</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="start-hint">SELECT YOUR FACTION TO BEGIN · STORY FAITHFUL TO DYNAMIX 1997 ORIGINAL</div>
+</div>
+
+<!-- ═══════════════════════════════════════ -->
+<!-- BRIEFING MODAL                         -->
+<!-- ═══════════════════════════════════════ -->
+<div id="briefing-modal">
+  <div class="bm-label" id="bm-label">EDEN — MISSION 1 OF 12</div>
+  <div class="bm-title" id="bm-title">EVACUATION</div>
+  <div class="bm-brief" id="bm-brief"></div>
+  <div id="bm-objectives"></div>
+  <div class="bm-story" id="bm-story" style="display:none">
+    <div class="bm-story-title" id="bm-story-title">CHAPTER 1</div>
+    <div id="bm-story-body"></div>
+  </div>
+  <div class="bm-choices" id="bm-choices"></div>
+</div>
+
+<!-- ═══════════════════════════════════════ -->
+<!-- EVENT MODAL                            -->
+<!-- ═══════════════════════════════════════ -->
+<div id="event-modal">
+  <div class="em-title" id="em-title">EVENT</div>
+  <div class="em-body"  id="em-body"></div>
+  <div class="em-choices" id="em-choices"></div>
+</div>
+
+<!-- ═══════════════════════════════════════ -->
+<!-- END SCREEN                             -->
+<!-- ═══════════════════════════════════════ -->
+<div id="end-screen">
+  <div class="end-title" id="end-title">GAME OVER</div>
+  <div class="end-subtitle" id="end-subtitle"></div>
+  <div class="end-stats" id="end-stats"></div>
+  <button class="restart-btn" onclick="location.reload()">↩ NEW GAME</button>
+</div>
+
+<!-- ═══════════════════════════════════════ -->
+<!-- MAIN GAME UI                           -->
+<!-- ═══════════════════════════════════════ -->
+<div id="app" style="display:none">
+
+  <!-- TOP HUD -->
+  <div id="top-hud">
+    <div class="hud-title">OP2</div>
+    <div class="faction-tag eden" id="hud-faction">EDEN</div>
+    <div class="mission-tag" id="hud-mission">M1/12</div>
+
+    <!-- Resources -->
+    <div class="res-group">
+      <div class="res-cell">
+        <span class="res-icon">⚡</span>
+        <div class="res-val rv-ore" id="hud-ore">500</div>
+        <div class="res-lbl">Ore</div>
+      </div>
+      <div class="res-cell">
+        <span class="res-icon">💎</span>
+        <div class="res-val rv-rare" id="hud-rare">60</div>
+        <div class="res-lbl">Rare</div>
+      </div>
+      <div class="res-cell">
+        <span class="res-icon">🌾</span>
+        <div class="res-val rv-food" id="hud-food">240</div>
+        <div class="res-lbl">Food</div>
+      </div>
+      <div class="res-cell">
+        <span class="res-icon">👥</span>
+        <div class="res-val rv-pop" id="hud-pop">80</div>
+        <div class="res-lbl">Pop</div>
+      </div>
+    </div>
+
+    <!-- Morale -->
+    <div class="morale-cell">
+      <div class="morale-label">Morale</div>
+      <div class="morale-track-wrap">
+        <div class="morale-track">
+          <div class="morale-fill" id="hud-morale-fill" style="width:60%"></div>
+        </div>
+        <div class="morale-pct" id="hud-morale-pct">60%</div>
+      </div>
+    </div>
+
+    <!-- Science & Ship -->
+    <div class="res-group">
+      <div class="res-cell">
+        <span class="res-icon">🧪</span>
+        <div class="res-val rv-sci" id="hud-sci">0</div>
+        <div class="res-lbl">Science</div>
+      </div>
+      <div class="res-cell">
+        <span class="res-icon">🚀</span>
+        <div class="res-val rv-ship" id="hud-ship">0%</div>
+        <div class="res-lbl">Ship</div>
+      </div>
+    </div>
+
+    <!-- Blight Warning -->
+    <div class="blight-cell" id="hud-blight" style="visibility:hidden">
+      <span class="blight-icon">☢</span>
+      <div>
+        <div class="blight-text">BLIGHT T-5</div>
+        <div class="blight-sub">FRONT ADVANCING</div>
+      </div>
+    </div>
+
+    <div class="hud-spacer"></div>
+
+    <!-- Turn counter -->
+    <div class="turn-counter">
+      <div class="turn-num" id="hud-turn">1</div>
+      <div class="turn-lbl">Turn</div>
+    </div>
+
+    <!-- Turn button -->
+    <button class="turn-btn" id="turn-btn" onclick="Game.nextTurn()">
+      END TURN ▶
+    </button>
+  </div>
+
+  <!-- MAIN ROW: Map + Side Panel -->
+  <div id="main-row">
+
+    <!-- MAP -->
+    <div id="map-wrap">
+      <canvas id="map-canvas"></canvas>
+      <!-- Ship progress bar at bottom of map -->
+      <div class="ship-progress-bar">
+        <div class="ship-progress-fill" id="ship-progress-fill" style="width:0%"></div>
+      </div>
+    </div>
+
+    <!-- SIDE PANEL -->
+    <div id="side-panel">
+
+      <div class="panel-section">
+        <div class="panel-title">Construct</div>
+        <div class="build-grid" id="build-grid"></div>
+      </div>
+
+      <div class="panel-section">
+        <div class="panel-title">Production / Turn</div>
+        <div id="prod-bars"></div>
+      </div>
+
+      <div class="panel-section flex-grow">
+        <div class="panel-title">Research</div>
+        <div class="tech-scroll" id="tech-scroll"></div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- STORY LOG (fixed at bottom) -->
+  <div id="story-log">
+    <div id="log-inner"></div>
+  </div>
+
+</div>
+
+<script src="src/game.js"></script>
+</body>
+</html>

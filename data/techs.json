@@ -1,0 +1,3019 @@
+{
+  "multi": [
+    {
+      "id": 3401,
+      "name": "Cybernetic Teleoperation",
+      "cost": 800,
+      "sci": 10,
+      "lab": 2,
+      "requires": [],
+      "improve": "",
+      "desc": "Structure Factories may now produce Robot Command Center and Vehicle Factory structure kits.  ______"
+    },
+    {
+      "id": 3301,
+      "name": "Emergency Response Systems",
+      "cost": 1000,
+      "sci": 10,
+      "lab": 2,
+      "requires": [],
+      "improve": "",
+      "desc": "Structure Factories may now produce DIRT structure kits.  _______________________________________ Di"
+    },
+    {
+      "id": 3406,
+      "name": "Environmental Psychology",
+      "cost": 1500,
+      "sci": 12,
+      "lab": 2,
+      "requires": [],
+      "improve": "Increased Colonist capacity",
+      "desc": "Residence capacity increased.  _______________________________________ Our expanded knowledge of the"
+    },
+    {
+      "id": 3303,
+      "name": "Health Maintenance",
+      "cost": 700,
+      "sci": 7,
+      "lab": 2,
+      "requires": [],
+      "improve": "",
+      "desc": "Structure Factories may now produce Medical Center structure kits.  ________________________________"
+    },
+    {
+      "id": 3402,
+      "name": "High-Temperature Superconductivity",
+      "cost": 1100,
+      "sci": 11,
+      "lab": 3,
+      "requires": [],
+      "improve": "Increased Power output",
+      "desc": "Tokamak Power output increased.  _______________________________________ Our research into High-Temp"
+    },
+    {
+      "id": 3403,
+      "name": "Hydroponic Growing Media",
+      "cost": 1600,
+      "sci": 11,
+      "lab": 2,
+      "requires": [],
+      "improve": "Increased Food production",
+      "desc": "Food production increased.  _______________________________________ By adjusting the nutrients in th"
+    },
+    {
+      "id": 3407,
+      "name": "Large-Scale Optical Resonators",
+      "cost": 1200,
+      "sci": 12,
+      "lab": 2,
+      "requires": [],
+      "improve": "",
+      "desc": "The Laser weapon is now available.  Structure Factories may now produce Guard Post structure kits.  "
+    },
+    {
+      "id": 3405,
+      "name": "Metallogeny",
+      "cost": 1100,
+      "sci": 11,
+      "lab": 2,
+      "requires": [],
+      "improve": "Improved Common Ore yield",
+      "desc": "Common Ore Mine yield increased.  _______________________________________ Our Metallogenic research "
+    },
+    {
+      "id": 3302,
+      "name": "Metals Reclamation",
+      "cost": 700,
+      "sci": 7,
+      "lab": 2,
+      "requires": [],
+      "improve": "",
+      "desc": "Structure Factories may now produce GORF structure kits.  _______________________________________ Th"
+    },
+    {
+      "id": 3304,
+      "name": "Offspring Enhancement",
+      "cost": 600,
+      "sci": 6,
+      "lab": 2,
+      "requires": [],
+      "improve": "",
+      "desc": "Structure Factories may now produce Nursery structure kits.  _______________________________________"
+    },
+    {
+      "id": 3305,
+      "name": "Research Training Programs",
+      "cost": 300,
+      "sci": 5,
+      "lab": 2,
+      "requires": [],
+      "improve": "",
+      "desc": "Structure Factories may now produce University structure kits.  ____________________________________"
+    },
+    {
+      "id": 3201,
+      "name": "Seismology",
+      "cost": 1800,
+      "sci": 11,
+      "lab": 2,
+      "requires": [],
+      "improve": "",
+      "desc": "Early warning of seismic events now available. _______________________________________  We have deve"
+    },
+    {
+      "id": 3901,
+      "name": "Advanced Vehicle Power Plant",
+      "cost": 1400,
+      "sci": 11,
+      "lab": 2,
+      "requires": [
+        3402
+      ],
+      "improve": "Increased speed",
+      "desc": "Cargo Truck, Robo-Dozer, and Earthworker speeds improved.  _______________________________________ T"
+    },
+    {
+      "id": 5307,
+      "name": "Automated Diagnostic Examinations",
+      "cost": 1500,
+      "sci": 8,
+      "lab": 2,
+      "requires": [
+        3303
+      ],
+      "improve": "Increased Colonist capacity",
+      "desc": "Medical Center capacity improved. _______________________________________ A new type of robotic medi"
+    },
+    {
+      "id": 5101,
+      "name": "Consumerism",
+      "cost": 1000,
+      "sci": 6,
+      "lab": 2,
+      "requires": [
+        3406
+      ],
+      "improve": "",
+      "desc": "Structure Factories may now produce University structure kits.  ____________________________________"
+    },
+    {
+      "id": 5305,
+      "name": "DIRT Procedural Review",
+      "cost": 1800,
+      "sci": 10,
+      "lab": 2,
+      "requires": [
+        3301
+      ],
+      "improve": "Improved protection capacity",
+      "desc": "DIRT protection capacity increased; DIRT Worker requirements increased. ____________________________"
+    },
+    {
+      "id": 8105,
+      "name": "Disaster-Resistant Housing",
+      "cost": 600,
+      "sci": 12,
+      "lab": 2,
+      "requires": [
+        3406
+      ],
+      "improve": "",
+      "desc": "Structure Factories may now produce Reinforced Residence structure kits.  __________________________"
+    },
+    {
+      "id": 8104,
+      "name": "Expanded Housing",
+      "cost": 1600,
+      "sci": 10,
+      "lab": 2,
+      "requires": [
+        3406
+      ],
+      "improve": "",
+      "desc": "Structure Factories may now produce Reinforced Residence structure kits.  __________________________"
+    },
+    {
+      "id": 5601,
+      "name": "Heat Dissipation Systems",
+      "cost": 3500,
+      "sci": 14,
+      "lab": 3,
+      "requires": [
+        3603
+      ],
+      "improve": "Increased rate of fire",
+      "desc": "Microwave rate of fire increased. _______________________________________  Our new weapons turret he"
+    },
+    {
+      "id": 5309,
+      "name": "Hypnopaedia",
+      "cost": 800,
+      "sci": 10,
+      "lab": 2,
+      "requires": [
+        3305
+      ],
+      "improve": "Reduced training time",
+      "desc": "Scientist training time reduced. _______________________________________  Our hypnopaedia project ha"
+    },
+    {
+      "id": 5310,
+      "name": "Hypnopaedia",
+      "cost": 1000,
+      "sci": 10,
+      "lab": 2,
+      "requires": [
+        3305
+      ],
+      "improve": "Reduced training time",
+      "desc": "Scientist training time reduced. _______________________________________  Our hypnopaedia project ha"
+    },
+    {
+      "id": 3306,
+      "name": "Leisure Studies",
+      "cost": 1400,
+      "sci": 7,
+      "lab": 2,
+      "requires": [
+        3406
+      ],
+      "improve": "",
+      "desc": "Structure Factories may now produce Recreation Facility structure kits.  ___________________________"
+    },
+    {
+      "id": 3851,
+      "name": "Mobile Weapons Platform",
+      "cost": 1400,
+      "sci": 12,
+      "lab": 3,
+      "requires": [
+        3401,
+        3407,
+        3408
+      ],
+      "improve": "",
+      "desc": "Vehicle Factories may now produce Lynx.  _______________________________________ The 'Lynx' light co"
+    },
+    {
+      "id": 5108,
+      "name": "Public Performance",
+      "cost": 800,
+      "sci": 8,
+      "lab": 2,
+      "requires": [
+        3306
+      ],
+      "improve": "",
+      "desc": "Structure Factories may now produce Forum structure kits.  _______________________________________ T"
+    },
+    {
+      "id": 5110,
+      "name": "Rare Ore Processing",
+      "cost": 2800,
+      "sci": 16,
+      "lab": 3,
+      "requires": [
+        3401,
+        3402,
+        3405
+      ],
+      "improve": "Can build Rare Ore Mines",
+      "desc": "Structure Factories may now produce Rare Ore Smelter and Rare Metals Storage Tanks structure kits.  "
+    },
+    {
+      "id": 5306,
+      "name": "Recycler Postprocessing",
+      "cost": 1500,
+      "sci": 10,
+      "lab": 2,
+      "requires": [
+        3302
+      ],
+      "improve": "Improved Metals reclamation",
+      "desc": "Metals recovered through recycling increased."
+    },
+    {
+      "id": 5051,
+      "name": "Robot-Assist Mechanic",
+      "cost": 800,
+      "sci": 8,
+      "lab": 2,
+      "requires": [
+        3401
+      ],
+      "improve": "",
+      "desc": "Structure Factories may now produce Garage structure kits.  Vehicle Factories may now produce Repair"
+    },
+    {
+      "id": 5318,
+      "name": "Robotic Image Processing",
+      "cost": 1400,
+      "sci": 12,
+      "lab": 2,
+      "requires": [
+        3401
+      ],
+      "improve": "Improved sight range",
+      "desc": "Light Tower, Guard Post, and Scout sight ranges improved. _______________________________________ Th"
+    },
+    {
+      "id": 3202,
+      "name": "Vulcanology",
+      "cost": 2000,
+      "sci": 10,
+      "lab": 2,
+      "requires": [
+        3201
+      ],
+      "improve": "",
+      "desc": "Early warning of volcanic eruptions now available. _______________________________________ Using dat"
+    },
+    {
+      "id": 5201,
+      "name": "Advanced Combat Chassis",
+      "cost": 2000,
+      "sci": 13,
+      "lab": 3,
+      "requires": [
+        3851,
+        3901,
+        5110
+      ],
+      "improve": "",
+      "desc": "Vehicle Factories may now produce Panthers.  _______________________________________ The Panther med"
+    },
+    {
+      "id": 7213,
+      "name": "Advanced Robotic Manipulator Arm",
+      "cost": 2800,
+      "sci": 16,
+      "lab": 2,
+      "requires": [
+        5102
+      ],
+      "improve": "Improved productivity",
+      "desc": "ConVec, Earthworker, Robo-Dozer, Repair Vehicle, and Garage productivity improved.  ________________"
+    },
+    {
+      "id": 7214,
+      "name": "Advanced Robotic Manipulator Arm",
+      "cost": 3200,
+      "sci": 14,
+      "lab": 2,
+      "requires": [
+        5102
+      ],
+      "improve": "Improved productivity",
+      "desc": "ConVec, Earthworker, Robo-Dozer, and Garage productivity improved.  ________________________________"
+    },
+    {
+      "id": 5202,
+      "name": "Dissipating Adhesives",
+      "cost": 1600,
+      "sci": 10,
+      "lab": 2,
+      "requires": [
+        3851
+      ],
+      "improve": "",
+      "desc": "The StickyFoam weapon is now available.  _______________________________________ StickyFoam is a pow"
+    },
+    {
+      "id": 8306,
+      "name": "Enhanced Defensive Fortifications",
+      "cost": 1600,
+      "sci": 12,
+      "lab": 2,
+      "requires": [
+        3407,
+        3408,
+        5110
+      ],
+      "improve": "Improved armor",
+      "desc": "Guard Post armor upgraded.  _______________________________________  The armor applied to our Guard "
+    },
+    {
+      "id": 7102,
+      "name": "Explosive Charges",
+      "cost": 900,
+      "sci": 11,
+      "lab": 2,
+      "requires": [
+        3851
+      ],
+      "improve": "",
+      "desc": "The Starflare weapon is now available.  _______________________________________ The Starflare turret"
+    },
+    {
+      "id": 5408,
+      "name": "Forum Reconfiguration",
+      "cost": 600,
+      "sci": 10,
+      "lab": 2,
+      "requires": [
+        5108
+      ],
+      "improve": "Increased Colonist capacity",
+      "desc": "Forum capacity increased. _______________________________________  By redesigning the seats, reconfi"
+    },
+    {
+      "id": 5115,
+      "name": "Geothermal Power",
+      "cost": 2200,
+      "sci": 14,
+      "lab": 2,
+      "requires": [
+        5110
+      ],
+      "improve": "",
+      "desc": "Vehicle Factories may now produce Geothermal Constructors (GeoCons).  ______________________________"
+    },
+    {
+      "id": 7202,
+      "name": "Hot-Cracking Column Efficiency",
+      "cost": 1400,
+      "sci": 14,
+      "lab": 2,
+      "requires": [
+        3302,
+        5110
+      ],
+      "improve": "Reduced Power demand",
+      "desc": "Common Ore Smelter, Rare Ore Smelter, and GORF Power requirements reduced."
+    },
+    {
+      "id": 5111,
+      "name": "Independent Turret Power Systems",
+      "cost": 1600,
+      "sci": 12,
+      "lab": 3,
+      "requires": [
+        3402,
+        3851
+      ],
+      "improve": "Increased weapon damage",
+      "desc": "Weapon damage increased.  _______________________________________ The R-10 cool-fusion power cell, j"
+    },
+    {
+      "id": 5701,
+      "name": "Lava Defenses",
+      "cost": 1200,
+      "sci": 12,
+      "lab": 3,
+      "requires": [
+        5110,
+        3202
+      ],
+      "improve": "",
+      "desc": "Earthworkers may now deploy Lava Walls.  _______________________________________ In our search for a"
+    },
+    {
+      "id": 5107,
+      "name": "Magnetohydrodynamics",
+      "cost": 2200,
+      "sci": 12,
+      "lab": 2,
+      "requires": [
+        5110
+      ],
+      "improve": "",
+      "desc": "Structure Factories may now produce MHD Generator structure kits.  _________________________________"
+    },
+    {
+      "id": 5302,
+      "name": "Meteorology",
+      "cost": 1800,
+      "sci": 11,
+      "lab": 2,
+      "requires": [
+        3202
+      ],
+      "improve": "",
+      "desc": "Early warning of electrical storms now available. _______________________________________ We now und"
+    },
+    {
+      "id": 8307,
+      "name": "Multitainment Console Upgrade",
+      "cost": 1300,
+      "sci": 9,
+      "lab": 2,
+      "requires": [
+        3306
+      ],
+      "improve": "Increased Colonist capacity",
+      "desc": "Recreation Facility capacity increased. _______________________________________  Our improved Multit"
+    },
+    {
+      "id": 7201,
+      "name": "Rare Ore Extraction",
+      "cost": 3400,
+      "sci": 17,
+      "lab": 3,
+      "requires": [
+        5110
+      ],
+      "improve": "Improved Rare Ore yield",
+      "desc": "Rare Ore Mine yield increased.  _______________________________________ Our project has met with lim"
+    },
+    {
+      "id": 5317,
+      "name": "Reinforced Vehicle Construction",
+      "cost": 1200,
+      "sci": 12,
+      "lab": 2,
+      "requires": [
+        5110
+      ],
+      "improve": "Increased hit points",
+      "desc": "ConVec, Cargo Truck, and Evacuation Transport Hit Points increased; production costs of these vehicl"
+    },
+    {
+      "id": 7206,
+      "name": "Scout-class Drive Train Refit",
+      "cost": 1500,
+      "sci": 12,
+      "lab": 2,
+      "requires": [
+        3851
+      ],
+      "improve": "Increased speed",
+      "desc": "Scout, Robo-Surveyor, and Lynx speeds increased. _______________________________________ The G-75 dr"
+    },
+    {
+      "id": 7203,
+      "name": "Smelter Postprocessing",
+      "cost": 3800,
+      "sci": 17,
+      "lab": 3,
+      "requires": [
+        5110,
+        5306
+      ],
+      "improve": "Increased ore yield",
+      "desc": "Common Ore Smelter and Rare Ore Smelter production increased.  _____________________________________"
+    },
+    {
+      "id": 8201,
+      "name": "Dual-Turret Weapons Systems",
+      "cost": 4000,
+      "sci": 18,
+      "lab": 3,
+      "requires": [
+        5201,
+        5317
+      ],
+      "improve": "",
+      "desc": "Vehicle Factories may now produce Tigers.  _______________________________________ The dual-turret w"
+    },
+    {
+      "id": 5506,
+      "name": "Directional Magnetic Fields",
+      "cost": 2000,
+      "sci": 14,
+      "lab": 3,
+      "requires": [
+        5111,
+        5201
+      ],
+      "improve": "",
+      "desc": "The Rail Gun weapon is now available.  _______________________________________ The Rail Gun turret u"
+    },
+    {
+      "id": 5508,
+      "name": "Electromagnetic Pulsing",
+      "cost": 2400,
+      "sci": 11,
+      "lab": 3,
+      "requires": [
+        5111,
+        5201
+      ],
+      "improve": "",
+      "desc": "The EMP weapon is now available.  _______________________________________ Electromagnetic pulse (EMP"
+    },
+    {
+      "id": 8304,
+      "name": "Heat Mining",
+      "cost": 1600,
+      "sci": 10,
+      "lab": 2,
+      "requires": [
+        5115
+      ],
+      "improve": "Increased Power output",
+      "desc": "Geothermal Plant Power production increased.  _______________________________________ Our Heat Minin"
+    },
+    {
+      "id": 5116,
+      "name": "Legged Robots",
+      "cost": 1800,
+      "sci": 14,
+      "lab": 2,
+      "requires": [
+        3401,
+        3402
+      ],
+      "improve": "",
+      "desc": "Structure Factories may now produce Arachnid Factory structure kits.  Arachnid Factories may produce"
+    },
+    {
+      "id": 8103,
+      "name": "Magma Refining",
+      "cost": 3200,
+      "sci": 16,
+      "lab": 3,
+      "requires": [
+        5115,
+        3202
+      ],
+      "improve": "Can build Magma Wells",
+      "desc": "Robo-Miners may now deploy as Magma Wells.  Robo-Miner production cost increased.  _________________"
+    },
+    {
+      "id": 7103,
+      "name": "Multiple Mine Projectile System",
+      "cost": 1800,
+      "sci": 12,
+      "lab": 2,
+      "requires": [
+        5111,
+        5201
+      ],
+      "improve": "",
+      "desc": "The ESG weapon is now available.  _______________________________________ Our new ESG weapons launch"
+    },
+    {
+      "id": 8320,
+      "name": "Reduced Foam Evaporation",
+      "cost": 1800,
+      "sci": 12,
+      "lab": 2,
+      "requires": [
+        5202
+      ],
+      "improve": "Improved foam duration",
+      "desc": "StickyFoam duration increased. _______________________________________  We have added stabilizers an"
+    },
+    {
+      "id": 8309,
+      "name": "Reinforced Panther Construction",
+      "cost": 1500,
+      "sci": 11,
+      "lab": 3,
+      "requires": [
+        5201,
+        5317
+      ],
+      "improve": "Increased Hit Points",
+      "desc": "Panther Hit Points increased.  _______________________________________  A redesign of the Panther us"
+    },
+    {
+      "id": 5303,
+      "name": "Severe Atmospheric Disturbances",
+      "cost": 1800,
+      "sci": 12,
+      "lab": 2,
+      "requires": [
+        5302
+      ],
+      "improve": "",
+      "desc": "Early warning of vortexes is now available. _______________________________________ The vortexes sta"
+    },
+    {
+      "id": 8503,
+      "name": "Acid Weaponry",
+      "cost": 3500,
+      "sci": 16,
+      "lab": 3,
+      "requires": [
+        5201,
+        3202
+      ],
+      "improve": "",
+      "desc": "The Acid Cloud weapon is now available.  _______________________________________ Our Acid Cloud turr"
+    },
+    {
+      "id": 10303,
+      "name": "Advanced Armoring Systems",
+      "cost": 3000,
+      "sci": 17,
+      "lab": 3,
+      "requires": [
+        5201,
+        8306
+      ],
+      "improve": "Increased armor",
+      "desc": "Lynx and Panther armor upgraded. _______________________________________  Materials research done as"
+    },
+    {
+      "id": 7104,
+      "name": "Arachnid Weaponry",
+      "cost": 1800,
+      "sci": 12,
+      "lab": 3,
+      "requires": [
+        3603,
+        5116
+      ],
+      "improve": "",
+      "desc": "Arachnid Factories may now produce Scorpions.  _______________________________________ The Scorpion,"
+    },
+    {
+      "id": 7212,
+      "name": "Extended-Range Projectile Launcher",
+      "cost": 4500,
+      "sci": 14,
+      "lab": 3,
+      "requires": [
+        5202,
+        5508,
+        7103
+      ],
+      "improve": "",
+      "desc": "EMP, StickyFoam, and ESG ranges increased. _______________________________________  The redesigned l"
+    },
+    {
+      "id": 8203,
+      "name": "High-Powered Explosives",
+      "cost": 1500,
+      "sci": 12,
+      "lab": 2,
+      "requires": [
+        5602,
+        7102
+      ],
+      "improve": "Increased damage",
+      "desc": "The Supernova weapon is now available.  RPG damage increased. ______________________________________"
+    },
+    {
+      "id": 7403,
+      "name": "Increased Capacitance Circuitry",
+      "cost": 1800,
+      "sci": 10,
+      "lab": 3,
+      "requires": [
+        5506
+      ],
+      "improve": "Increased weapon damage",
+      "desc": "Rail Gun damage increased. _______________________________________  The new design of the dielectric"
+    },
+    {
+      "id": 10301,
+      "name": "Magma Purity Control",
+      "cost": 4500,
+      "sci": 18,
+      "lab": 3,
+      "requires": [
+        8103
+      ],
+      "improve": "Improved Rare Ore yield",
+      "desc": "Magma Well yield increased. _______________________________________  Our Magma Purity Control techni"
+    },
+    {
+      "id": 5405,
+      "name": "Space Program",
+      "cost": 3600,
+      "sci": 16,
+      "lab": 3,
+      "requires": [
+        5110
+      ],
+      "improve": "",
+      "desc": "Structure Factories may now produce Spaceport structure kits.  Spaceports may produce Single Use Lau"
+    },
+    {
+      "id": 8319,
+      "name": "Spider Maintenance Software Revision",
+      "cost": 1600,
+      "sci": 12,
+      "lab": 2,
+      "requires": [
+        5116
+      ],
+      "improve": "Improved rate of repair",
+      "desc": "Spider repair rate improved.  _______________________________________  Spider Maintenance Software v"
+    },
+    {
+      "id": 8321,
+      "name": "Arachnid Durability",
+      "cost": 1800,
+      "sci": 14,
+      "lab": 3,
+      "requires": [
+        7104
+      ],
+      "improve": "Increased hit points",
+      "desc": "Spider and Scorpion Hit Points increased. _______________________________________  Our metallurgical"
+    },
+    {
+      "id": 10102,
+      "name": "Artificial Lightning",
+      "cost": 4000,
+      "sci": 18,
+      "lab": 3,
+      "requires": [
+        7403
+      ],
+      "improve": "",
+      "desc": "The Thor's Hammer weapon is now available. _______________________________________  Our artificial l"
+    },
+    {
+      "id": 8301,
+      "name": "Efficiency Engineering",
+      "cost": 4000,
+      "sci": 16,
+      "lab": 2,
+      "requires": [
+        5101,
+        5405
+      ],
+      "improve": "Improved production rate",
+      "desc": "Production time at all factories reduced. _______________________________________ Using time-and-mot"
+    },
+    {
+      "id": 8302,
+      "name": "Efficiency Engineering",
+      "cost": 4000,
+      "sci": 18,
+      "lab": 2,
+      "requires": [
+        5116,
+        5405
+      ],
+      "improve": "Improved production rate",
+      "desc": "Production time at all factories reduced. _______________________________________ Using time-and-mot"
+    },
+    {
+      "id": 7211,
+      "name": "Extended-Range Projectile Launcher",
+      "cost": 4000,
+      "sci": 18,
+      "lab": 3,
+      "requires": [
+        5508,
+        8503
+      ],
+      "improve": "",
+      "desc": "EMP and Acid Cloud ranges increased. _______________________________________  The redesigned launch "
+    },
+    {
+      "id": 10306,
+      "name": "Grenade Loading Mechanism",
+      "cost": 3800,
+      "sci": 16,
+      "lab": 3,
+      "requires": [
+        7212
+      ],
+      "improve": "Improved rate of fire",
+      "desc": "EMP and ESG rate of fire improved. _______________________________________  The hydraulic grenade lo"
+    },
+    {
+      "id": 10101,
+      "name": "Improved Launch Vehicle",
+      "cost": 6000,
+      "sci": 18,
+      "lab": 3,
+      "requires": [
+        5405
+      ],
+      "improve": "",
+      "desc": "Spaceports may now produce the Reusable Launch Vehicle (RLV). ______________________________________"
+    },
+    {
+      "id": 8049,
+      "name": "Meteor-Watch Observatory",
+      "cost": 1800,
+      "sci": 12,
+      "lab": 2,
+      "requires": [
+        5405
+      ],
+      "improve": "",
+      "desc": "Structure Factories may now produce Observatory structure kits. ____________________________________"
+    },
+    {
+      "id": 10309,
+      "name": "Precision Trajectory Projection Software",
+      "cost": 2400,
+      "sci": 14,
+      "lab": 2,
+      "requires": [
+        8106
+      ],
+      "improve": "Improved meteor tracking",
+      "desc": "Observatory's meteor targeting system improved. _______________________________________  Revision of"
+    },
+    {
+      "id": 12201,
+      "name": "Rocket Atmospheric Re-entry System",
+      "cost": 4500,
+      "sci": 14,
+      "lab": 3,
+      "requires": [
+        5405,
+        5508
+      ],
+      "improve": "",
+      "desc": "Spaceports may now produce EMP Missiles. _______________________________________   Our missile re-en"
+    },
+    {
+      "id": 7405,
+      "name": "Scorpion Power Systems",
+      "cost": 1800,
+      "sci": 14,
+      "lab": 3,
+      "requires": [
+        7104
+      ],
+      "improve": "Increased weapon damage",
+      "desc": "Scorpion weapon damage increased. _______________________________________ By installing a slightly l"
+    },
+    {
+      "id": 8601,
+      "name": "Skydock",
+      "cost": 3600,
+      "sci": 16,
+      "lab": 3,
+      "requires": [
+        5405
+      ],
+      "improve": "",
+      "desc": "Spaceports may now produce the Skydock. _______________________________________ Our Skydock will fun"
+    },
+    {
+      "id": 10204,
+      "name": "Solar Power",
+      "cost": 2800,
+      "sci": 16,
+      "lab": 3,
+      "requires": [
+        5405
+      ],
+      "improve": "",
+      "desc": "Structure Factories may now produce Solar Power Array structure kits.  Spaceports may now produce So"
+    },
+    {
+      "id": 10208,
+      "name": "Stasis Systems",
+      "cost": 3600,
+      "sci": 18,
+      "lab": 3,
+      "requires": [
+        3303,
+        10205
+      ],
+      "improve": "",
+      "desc": "Spaceports may now produce the Stasis Systems. _______________________________________ The Stasis Sy"
+    },
+    {
+      "id": 10205,
+      "name": "Habitat Ring",
+      "cost": 3600,
+      "sci": 16,
+      "lab": 3,
+      "requires": [
+        8601
+      ],
+      "improve": "",
+      "desc": "Spaceports may now produce the Habitat Ring. _______________________________________ Before and afte"
+    },
+    {
+      "id": 10305,
+      "name": "Grenade Loading Mechanism",
+      "cost": 3600,
+      "sci": 18,
+      "lab": 3,
+      "requires": [
+        7211
+      ],
+      "improve": "Improved rate of fire",
+      "desc": "EMP and Acid Cloud rate of fire improved. _______________________________________  The hydraulic gre"
+    },
+    {
+      "id": 12101,
+      "name": "Heat Dissipation Systems",
+      "cost": 3600,
+      "sci": 18,
+      "lab": 3,
+      "requires": [
+        10102
+      ],
+      "improve": "Increased rate of fire",
+      "desc": "Laser, Rail Gun, and Thor's Hammer rate of fire increased. _______________________________________  "
+    },
+    {
+      "id": 8106,
+      "name": "High-Energy Ray-Composite Projector",
+      "cost": 4000,
+      "sci": 18,
+      "lab": 2,
+      "requires": [
+        8051
+      ],
+      "improve": "",
+      "desc": "Structure Factories may now produce Meteor Defense structure kits. _________________________________"
+    },
+    {
+      "id": 8801,
+      "name": "Ion Drive Module",
+      "cost": 3600,
+      "sci": 16,
+      "lab": 3,
+      "requires": [
+        8601
+      ],
+      "improve": "",
+      "desc": "Spaceports may now produce the Ion Drive Module. _______________________________________ The ion mot"
+    },
+    {
+      "id": 10202,
+      "name": "Command Module",
+      "cost": 3600,
+      "sci": 16,
+      "lab": 3,
+      "requires": [
+        8601
+      ],
+      "improve": "",
+      "desc": "Spaceports may now produce the Command Module. _______________________________________ Several dozen"
+    },
+    {
+      "id": 10209,
+      "name": "Orbital Package",
+      "cost": 3600,
+      "sci": 16,
+      "lab": 3,
+      "requires": [
+        8601
+      ],
+      "improve": "",
+      "desc": "Spaceports may now produce the Orbital Package. _______________________________________ This group o"
+    },
+    {
+      "id": 10206,
+      "name": "Sensor Package",
+      "cost": 3600,
+      "sci": 16,
+      "lab": 3,
+      "requires": [
+        8601
+      ],
+      "improve": "",
+      "desc": "Spaceports may now produce the Sensor Package. _______________________________________  Before we ca"
+    },
+    {
+      "id": 8951,
+      "name": "Fueling Systems",
+      "cost": 3600,
+      "sci": 16,
+      "lab": 3,
+      "requires": [
+        8801
+      ],
+      "improve": "",
+      "desc": "Spaceports may now produce the Fueling Systems. _______________________________________ The Fueling "
+    },
+    {
+      "id": 8901,
+      "name": "Fusion Drive Module",
+      "cost": 3600,
+      "sci": 16,
+      "lab": 3,
+      "requires": [
+        8801
+      ],
+      "improve": "",
+      "desc": "Spaceports may now produce the Fusion Drive Module. _______________________________________ Our fusi"
+    },
+    {
+      "id": 10401,
+      "name": "Phoenix Module",
+      "cost": 3600,
+      "sci": 16,
+      "lab": 3,
+      "requires": [
+        8901,
+        10202,
+        8951,
+        10206,
+        10208,
+        10209
+      ],
+      "improve": "",
+      "desc": "Spaceports may now produce the Phoenix Module. _______________________________________  When deploye"
+    },
+    {
+      "id": 11999,
+      "name": "Tiger Speed Modification",
+      "cost": 1,
+      "sci": 1,
+      "lab": 1,
+      "requires": [],
+      "improve": "Increased speed.",
+      "desc": "Tiger speed increased. _______________________________________  The 'Conestoga' wreckage we found ap"
+    }
+  ],
+  "eden": [
+    {
+      "id": 2701,
+      "name": "Astronomy",
+      "cost": 400,
+      "sci": 5,
+      "lab": 1,
+      "requires": [
+        2000
+      ],
+      "improve": "",
+      "desc": "Our astronomical database has been rebuilt, giving us increased knowledge of the possible resources "
+    },
+    {
+      "id": 2702,
+      "name": "Boptronics",
+      "cost": 400,
+      "sci": 5,
+      "lab": 1,
+      "requires": [
+        2000
+      ],
+      "improve": "",
+      "desc": "Our boptronics database has been restored.  We will soon be able to develop new processes, technique"
+    },
+    {
+      "id": 2703,
+      "name": "Chemistry",
+      "cost": 400,
+      "sci": 5,
+      "lab": 1,
+      "requires": [
+        2000
+      ],
+      "improve": "",
+      "desc": "The chemical database has been reconstructed, and will provide the foundation of future scientific p"
+    },
+    {
+      "id": 2704,
+      "name": "Planetary Sciences",
+      "cost": 400,
+      "sci": 5,
+      "lab": 1,
+      "requires": [
+        2000
+      ],
+      "improve": "",
+      "desc": "Our planetary sciences database has been reassembled."
+    },
+    {
+      "id": 2705,
+      "name": "Social Sciences",
+      "cost": 400,
+      "sci": 5,
+      "lab": 1,
+      "requires": [
+        2000
+      ],
+      "improve": "",
+      "desc": "Reclamation of the social sciences database is complete."
+    },
+    {
+      "id": 3301,
+      "name": "Emergency Response Systems",
+      "cost": 1000,
+      "sci": 10,
+      "lab": 2,
+      "requires": [
+        3000
+      ],
+      "improve": "",
+      "desc": "Structure Factories may now produce DIRT structure kits.  _______________________________________ Di"
+    },
+    {
+      "id": 3302,
+      "name": "Metals Reclamation",
+      "cost": 800,
+      "sci": 10,
+      "lab": 2,
+      "requires": [
+        3000
+      ],
+      "improve": "",
+      "desc": "Structure Factories may now produce GORF structure kits.  _______________________________________ Th"
+    },
+    {
+      "id": 3303,
+      "name": "Health Maintenance",
+      "cost": 600,
+      "sci": 6,
+      "lab": 2,
+      "requires": [
+        3000
+      ],
+      "improve": "",
+      "desc": "Structure Factories may now produce Medical Center structure kits.  ________________________________"
+    },
+    {
+      "id": 3401,
+      "name": "Cybernetic Teleoperation",
+      "cost": 800,
+      "sci": 10,
+      "lab": 2,
+      "requires": [
+        3000
+      ],
+      "improve": "",
+      "desc": "Structure Factories may now produce Vehicle Factory and Robot Command Center structure kits.  ______"
+    },
+    {
+      "id": 3402,
+      "name": "High-Temperature Superconductivity",
+      "cost": 1200,
+      "sci": 12,
+      "lab": 2,
+      "requires": [
+        3000
+      ],
+      "improve": "Increased Power output",
+      "desc": "Tokamak Power output increased. _______________________________________ Our research into High-Tempe"
+    },
+    {
+      "id": 3403,
+      "name": "Hydroponic Growing Media",
+      "cost": 1500,
+      "sci": 10,
+      "lab": 2,
+      "requires": [
+        3000
+      ],
+      "improve": "Increased Food production",
+      "desc": "Food production increased.  _______________________________________ By adjusting the nutrients in th"
+    },
+    {
+      "id": 3405,
+      "name": "Metallogeny",
+      "cost": 1200,
+      "sci": 12,
+      "lab": 2,
+      "requires": [
+        3000
+      ],
+      "improve": "Improved Common Ore yield",
+      "desc": "Common Ore Mine yield increased.  _______________________________________ Our Metallogenic research "
+    },
+    {
+      "id": 3406,
+      "name": "Environmental Psychology",
+      "cost": 1500,
+      "sci": 12,
+      "lab": 2,
+      "requires": [
+        3000
+      ],
+      "improve": "Increased Colonist capacity",
+      "desc": "Residence capacity increased.  _______________________________________ Our expanded knowledge of the"
+    },
+    {
+      "id": 3602,
+      "name": "Large-Scale Optical Resonators",
+      "cost": 1200,
+      "sci": 12,
+      "lab": 2,
+      "requires": [
+        3000
+      ],
+      "improve": "",
+      "desc": "The Laser weapon is now available.  Structure Factories may now produce Guard Post structure kits.  "
+    },
+    {
+      "id": 3851,
+      "name": "Mobile Weapons Platform",
+      "cost": 1400,
+      "sci": 12,
+      "lab": 2,
+      "requires": [
+        3601,
+        3602
+      ],
+      "improve": "",
+      "desc": "Vehicle Factories may now produce Lynx.  _______________________________________ The 'Lynx' light co"
+    },
+    {
+      "id": 3901,
+      "name": "Advanced Vehicle Power Plant",
+      "cost": 1500,
+      "sci": 12,
+      "lab": 2,
+      "requires": [
+        3402
+      ],
+      "improve": "Increased speed",
+      "desc": "Cargo Truck, Robo-Dozer, and Earthworker speeds improved.  _______________________________________ T"
+    },
+    {
+      "id": 3201,
+      "name": "Seismology",
+      "cost": 1700,
+      "sci": 11,
+      "lab": 2,
+      "requires": [
+        3000
+      ],
+      "improve": "",
+      "desc": "Early warning of seismic events now available. _______________________________________ We have devel"
+    },
+    {
+      "id": 5101,
+      "name": "Consumerism",
+      "cost": 1000,
+      "sci": 6,
+      "lab": 2,
+      "requires": [
+        5000
+      ],
+      "improve": "",
+      "desc": "Structure Factories may now produce Consumber Goods Factory structure kits.  _______________________"
+    },
+    {
+      "id": 5102,
+      "name": "Robot-Assist Mechanic",
+      "cost": 800,
+      "sci": 8,
+      "lab": 2,
+      "requires": [
+        5000
+      ],
+      "improve": "",
+      "desc": "Structure Factories may now produce Garage structure kits.  Vehicle Factories may now produce Repair"
+    },
+    {
+      "id": 3306,
+      "name": "Leisure Studies",
+      "cost": 1200,
+      "sci": 6,
+      "lab": 2,
+      "requires": [
+        5000
+      ],
+      "improve": "",
+      "desc": "Structure Factories may now produce Recreation Facility structure kits.  ___________________________"
+    },
+    {
+      "id": 5110,
+      "name": "Rare Ore Processing",
+      "cost": 2500,
+      "sci": 16,
+      "lab": 3,
+      "requires": [
+        3405,
+        5000
+      ],
+      "improve": "Can build Rare Ore Mines",
+      "desc": "Structure Factories may now produce Rare Ore Smelter and Rare Metals Storage Tanks structure kits.  "
+    },
+    {
+      "id": 5111,
+      "name": "Independent Turret Power Systems",
+      "cost": 1700,
+      "sci": 12,
+      "lab": 3,
+      "requires": [
+        3402,
+        5000
+      ],
+      "improve": "Increased weapon damage",
+      "desc": "Laser damage increased. _______________________________________ The R-10 cool-fusion power cell, jus"
+    },
+    {
+      "id": 5115,
+      "name": "Geothermal Power",
+      "cost": 2200,
+      "sci": 14,
+      "lab": 2,
+      "requires": [
+        3402,
+        5110
+      ],
+      "improve": "",
+      "desc": "Vehicle Factories may now produce Geothermal Constructors (GeoCons).  ______________________________"
+    },
+    {
+      "id": 5201,
+      "name": "Advanced Combat Chassis",
+      "cost": 2200,
+      "sci": 14,
+      "lab": 3,
+      "requires": [
+        5110
+      ],
+      "improve": "",
+      "desc": "Vehicle Factories may now produce Panthers.  _______________________________________ The Panther med"
+    },
+    {
+      "id": 3202,
+      "name": "Vulcanology",
+      "cost": 1600,
+      "sci": 8,
+      "lab": 2,
+      "requires": [
+        5000
+      ],
+      "improve": "",
+      "desc": "Early warning of volcanic eruptions now available. _______________________________________ Using dat"
+    },
+    {
+      "id": 5305,
+      "name": "DIRT Procedural Review",
+      "cost": 1800,
+      "sci": 10,
+      "lab": 2,
+      "requires": [
+        3301,
+        5000
+      ],
+      "improve": "Improved protection capacity",
+      "desc": "DIRT protection capacity increased; DIRT Worker requirement increased. _____________________________"
+    },
+    {
+      "id": 5306,
+      "name": "Recycler Postprocessing",
+      "cost": 1500,
+      "sci": 10,
+      "lab": 2,
+      "requires": [
+        3302,
+        5000
+      ],
+      "improve": "Improved Metals reclamation",
+      "desc": "Metals recovered through recycling increased.  When recycling structure kits or deconstructing struc"
+    },
+    {
+      "id": 5307,
+      "name": "Automated Diagnostic Examinations",
+      "cost": 1500,
+      "sci": 8,
+      "lab": 2,
+      "requires": [
+        3303,
+        5000
+      ],
+      "improve": "Increased Colonist capacity",
+      "desc": "Medical Center capacity improved. _______________________________________ A new type of robotic medi"
+    },
+    {
+      "id": 5309,
+      "name": "Hypnopaedia",
+      "cost": 800,
+      "sci": 10,
+      "lab": 2,
+      "requires": [
+        3305,
+        5000
+      ],
+      "improve": "Reduced training time",
+      "desc": "Scientist training time reduced. _______________________________________  Our hypnopaedia project ha"
+    },
+    {
+      "id": 5317,
+      "name": "Reinforced Vehicle Construction",
+      "cost": 1200,
+      "sci": 12,
+      "lab": 2,
+      "requires": [
+        5110
+      ],
+      "improve": "Increased Hit Points",
+      "desc": "Cargo Truck, ConVec, and Evacuation Transport Hit Points increased; production costs of these vehicl"
+    },
+    {
+      "id": 5318,
+      "name": "Robotic Image Processing",
+      "cost": 1400,
+      "sci": 12,
+      "lab": 2,
+      "requires": [
+        5000
+      ],
+      "improve": "Improved sight range",
+      "desc": "Light Tower, Guard Post, and Scout sight ranges improved. _______________________________________ Th"
+    },
+    {
+      "id": 5405,
+      "name": "Space Program",
+      "cost": 4000,
+      "sci": 18,
+      "lab": 3,
+      "requires": [
+        5110
+      ],
+      "improve": "",
+      "desc": "Structure Factories may now produce Spaceport structure kits.  Spaceports may produce Single Use Lau"
+    },
+    {
+      "id": 5506,
+      "name": "Directional Magnetic Fields",
+      "cost": 2000,
+      "sci": 14,
+      "lab": 3,
+      "requires": [
+        5111,
+        5201
+      ],
+      "improve": "",
+      "desc": "The Rail Gun weapon is now available.  _______________________________________ The Rail Gun turret u"
+    },
+    {
+      "id": 5302,
+      "name": "Meteorology",
+      "cost": 1600,
+      "sci": 10,
+      "lab": 2,
+      "requires": [
+        8000
+      ],
+      "improve": "",
+      "desc": "Early warning of electrical storms now available. _______________________________________ We now und"
+    },
+    {
+      "id": 5303,
+      "name": "Severe Atmospheric Disturbances",
+      "cost": 1600,
+      "sci": 10,
+      "lab": 2,
+      "requires": [
+        5302
+      ],
+      "improve": "",
+      "desc": "Early warning of vortexes now available. _______________________________________ The vortexes start "
+    },
+    {
+      "id": 5508,
+      "name": "Electromagnetic Pulsing",
+      "cost": 1600,
+      "sci": 10,
+      "lab": 3,
+      "requires": [
+        8000
+      ],
+      "improve": "",
+      "desc": "The EMP weapon is now available.  _______________________________________ Electromagnetic pulse (EMP"
+    },
+    {
+      "id": 7102,
+      "name": "Explosive Charges",
+      "cost": 325,
+      "sci": 4,
+      "lab": 2,
+      "requires": [
+        8000
+      ],
+      "improve": "",
+      "desc": "The Starflare weapon is now available.  _______________________________________ The Starflare turret"
+    },
+    {
+      "id": 7201,
+      "name": "Rare Ore Extraction",
+      "cost": 4000,
+      "sci": 18,
+      "lab": 3,
+      "requires": [
+        8000
+      ],
+      "improve": "Improved Rare Ore yield",
+      "desc": "Rare Ore Mine yield increased.  _______________________________________ Our project has met with lim"
+    },
+    {
+      "id": 7202,
+      "name": "Hot-Cracking Column Efficiency",
+      "cost": 1400,
+      "sci": 14,
+      "lab": 2,
+      "requires": [
+        8000
+      ],
+      "improve": "Reduced Power demand",
+      "desc": "Common Ore Smelter, Rare Ore Smelter, and GORF Power requirement reduced."
+    },
+    {
+      "id": 7203,
+      "name": "Smelter Postprocessing",
+      "cost": 4000,
+      "sci": 18,
+      "lab": 3,
+      "requires": [
+        5306,
+        8000
+      ],
+      "improve": "Increased ore yield",
+      "desc": "Common Ore Smelter and Rare Ore Smelter production increased.  _____________________________________"
+    },
+    {
+      "id": 7206,
+      "name": "Scout-class Drive Train Refit",
+      "cost": 1500,
+      "sci": 12,
+      "lab": 2,
+      "requires": [
+        8000
+      ],
+      "improve": "Increased speed",
+      "desc": "Scout, Robo-Surveyor, and Lynx speeds improved. _______________________________________ The G-75 dri"
+    },
+    {
+      "id": 7213,
+      "name": "Advanced Robotic Manipulator Arm",
+      "cost": 2800,
+      "sci": 16,
+      "lab": 2,
+      "requires": [
+        5401,
+        8000
+      ],
+      "improve": "Improved productivity",
+      "desc": "ConVec, Earthworker, Robo-Dozer, Repair Vehicle, and Garage productivity improved.  ________________"
+    },
+    {
+      "id": 7403,
+      "name": "Increased Capacitance Circuitry",
+      "cost": 1800,
+      "sci": 10,
+      "lab": 3,
+      "requires": [
+        8000
+      ],
+      "improve": "Increased weapon damage",
+      "desc": "Rail Gun damage increased. _______________________________________  The new design of the dielectric"
+    },
+    {
+      "id": 8051,
+      "name": "Meteor-Watch Observatory",
+      "cost": 1800,
+      "sci": 12,
+      "lab": 2,
+      "requires": [
+        8000
+      ],
+      "improve": "",
+      "desc": "Structure Factories may now produce Observatory structure kits. ____________________________________"
+    },
+    {
+      "id": 8103,
+      "name": "Magma Refining",
+      "cost": 3200,
+      "sci": 16,
+      "lab": 3,
+      "requires": [
+        8000
+      ],
+      "improve": "Can build Magma Wells",
+      "desc": "Robo-Miners may now deploy as Magma Wells.  Robo-Miner production cost increased.  _________________"
+    },
+    {
+      "id": 8104,
+      "name": "Expanded Housing",
+      "cost": 1600,
+      "sci": 10,
+      "lab": 2,
+      "requires": [
+        3406,
+        8000
+      ],
+      "improve": "",
+      "desc": "Structure Factories may now produce Advanced Residence structure kits. _____________________________"
+    },
+    {
+      "id": 8106,
+      "name": "High-Energy Ray-Composite Projector",
+      "cost": 4000,
+      "sci": 18,
+      "lab": 2,
+      "requires": [
+        8051
+      ],
+      "improve": "",
+      "desc": "Structure Factories may now produce Meteor Defense structure kits. _________________________________"
+    },
+    {
+      "id": 8201,
+      "name": "Dual-Turret Weapons Systems",
+      "cost": 4000,
+      "sci": 18,
+      "lab": 3,
+      "requires": [
+        5317,
+        8000
+      ],
+      "improve": "",
+      "desc": "Vehicle Factories may now produce Tigers.  _______________________________________ The dual-turret w"
+    },
+    {
+      "id": 8301,
+      "name": "Efficiency Engineering",
+      "cost": 4000,
+      "sci": 16,
+      "lab": 2,
+      "requires": [
+        5101,
+        8000
+      ],
+      "improve": "Improved production rate",
+      "desc": "Production time at all factories reduced. _______________________________________ Using time-and-mot"
+    },
+    {
+      "id": 8304,
+      "name": "Heat Mining",
+      "cost": 1600,
+      "sci": 10,
+      "lab": 2,
+      "requires": [
+        5115,
+        8000
+      ],
+      "improve": "Increased Power output",
+      "desc": "Geothermal Plant Power output increased.  _______________________________________ Our Heat Mining pr"
+    },
+    {
+      "id": 8306,
+      "name": "Enhanced Defensive Fortifications",
+      "cost": 1600,
+      "sci": 12,
+      "lab": 2,
+      "requires": [
+        8000
+      ],
+      "improve": "Improved armor",
+      "desc": "Guard Posts armor upgraded.  _______________________________________  The armor applied to our Guard"
+    },
+    {
+      "id": 8307,
+      "name": "Multitainment Console Upgrade",
+      "cost": 1200,
+      "sci": 8,
+      "lab": 2,
+      "requires": [
+        3306,
+        8000
+      ],
+      "improve": "Increased Colonist capacity",
+      "desc": "Recreation Facility capacity increased. _______________________________________  Our improved Multit"
+    },
+    {
+      "id": 8309,
+      "name": "Reinforced Panther Construction",
+      "cost": 1600,
+      "sci": 12,
+      "lab": 3,
+      "requires": [
+        5317,
+        8000
+      ],
+      "improve": "Increased hit points",
+      "desc": "Panther Hit Points increased; Panther production costs changed.  ___________________________________"
+    },
+    {
+      "id": 8401,
+      "name": "Blight-Resistant Isotopes",
+      "cost": 2000,
+      "sci": 14,
+      "lab": 3,
+      "requires": [
+        3303,
+        8000
+      ],
+      "improve": "",
+      "desc": "Earthworkers may now deploy Microbe Walls. _______________________________________  We have isolated"
+    },
+    {
+      "id": 8503,
+      "name": "Acid Weaponry",
+      "cost": 3500,
+      "sci": 16,
+      "lab": 3,
+      "requires": [
+        8103
+      ],
+      "improve": "",
+      "desc": "The Acid Cloud weapon is now available.  _______________________________________ Our Acid Cloud turr"
+    },
+    {
+      "id": 8601,
+      "name": "Skydock",
+      "cost": 3500,
+      "sci": 18,
+      "lab": 3,
+      "requires": [
+        8000
+      ],
+      "improve": "",
+      "desc": "Spaceports may now produce the Skydock. _______________________________________ Our Skydock will fun"
+    },
+    {
+      "id": 8801,
+      "name": "Ion Drive Module",
+      "cost": 3500,
+      "sci": 18,
+      "lab": 3,
+      "requires": [
+        8601
+      ],
+      "improve": "",
+      "desc": "Spaceports may now produce the Ion Drive Module. _______________________________________ The ion mot"
+    },
+    {
+      "id": 8901,
+      "name": "Fusion Drive Module",
+      "cost": 3500,
+      "sci": 18,
+      "lab": 3,
+      "requires": [
+        8801
+      ],
+      "improve": "",
+      "desc": "Spaceports may now produce the Fusion Drive Module. _______________________________________ Our fusi"
+    },
+    {
+      "id": 8951,
+      "name": "Fueling Systems",
+      "cost": 3500,
+      "sci": 18,
+      "lab": 3,
+      "requires": [
+        8801
+      ],
+      "improve": "",
+      "desc": "Spaceports may now produce the Fueling Systems. _______________________________________ The Fueling "
+    },
+    {
+      "id": 7212,
+      "name": "Extended-Range Projectile Launcher",
+      "cost": 4000,
+      "sci": 18,
+      "lab": 3,
+      "requires": [
+        5508,
+        8503,
+        10000
+      ],
+      "improve": "",
+      "desc": "EMP and Acid Cloud ranges increased. _______________________________________  The redesigned launch "
+    },
+    {
+      "id": 10101,
+      "name": "Improved Launch Vehicle",
+      "cost": 6000,
+      "sci": 18,
+      "lab": 3,
+      "requires": [
+        10000
+      ],
+      "improve": "",
+      "desc": "Spaceports may now produce the Reusable Launch Vehicle (RLV). ______________________________________"
+    },
+    {
+      "id": 10102,
+      "name": "Artificial Lightning",
+      "cost": 4000,
+      "sci": 18,
+      "lab": 3,
+      "requires": [
+        7403,
+        10000
+      ],
+      "improve": "",
+      "desc": "The Thor's Hammer weapon is now available. _______________________________________  Our artificial l"
+    },
+    {
+      "id": 10202,
+      "name": "Command Module",
+      "cost": 3500,
+      "sci": 18,
+      "lab": 3,
+      "requires": [
+        10000
+      ],
+      "improve": "",
+      "desc": "Spaceports may now produce the Command Module. _______________________________________ Several dozen"
+    },
+    {
+      "id": 10204,
+      "name": "Solar Power",
+      "cost": 3200,
+      "sci": 18,
+      "lab": 3,
+      "requires": [
+        10000
+      ],
+      "improve": "",
+      "desc": "Structure Factories may now produce Solar Power Array structure kits; Spaceports may now produce Sol"
+    },
+    {
+      "id": 10205,
+      "name": "Habitat Ring",
+      "cost": 3500,
+      "sci": 18,
+      "lab": 3,
+      "requires": [
+        10000
+      ],
+      "improve": "",
+      "desc": "Spaceports may now produce the Habitat Ring. _______________________________________ Before and afte"
+    },
+    {
+      "id": 10206,
+      "name": "Sensor Package",
+      "cost": 3500,
+      "sci": 18,
+      "lab": 3,
+      "requires": [
+        10000
+      ],
+      "improve": "",
+      "desc": "Spaceports may now produce the Sensor Package. _______________________________________  Before we ca"
+    },
+    {
+      "id": 10208,
+      "name": "Stasis Systems",
+      "cost": 3500,
+      "sci": 18,
+      "lab": 3,
+      "requires": [
+        3303,
+        10205
+      ],
+      "improve": "",
+      "desc": "Spaceports may now produce the Stasis Systems. _______________________________________ The Stasis Sy"
+    },
+    {
+      "id": 10209,
+      "name": "Orbital Package",
+      "cost": 3500,
+      "sci": 18,
+      "lab": 3,
+      "requires": [
+        10000
+      ],
+      "improve": "",
+      "desc": "Spaceports may now produce the Orbital Package. _______________________________________ This group o"
+    },
+    {
+      "id": 10301,
+      "name": "Magma Purity Control",
+      "cost": 4500,
+      "sci": 18,
+      "lab": 3,
+      "requires": [
+        8103,
+        10000
+      ],
+      "improve": "Improved Rare Ore yield",
+      "desc": "Magma Well yield increased. _______________________________________  Our Magma Purity Control techni"
+    },
+    {
+      "id": 10303,
+      "name": "Advanced Armoring Systems",
+      "cost": 3200,
+      "sci": 18,
+      "lab": 3,
+      "requires": [
+        10000
+      ],
+      "improve": "Increased armor",
+      "desc": "Lynx and Panther armor upgraded. _______________________________________  Materials research done as"
+    },
+    {
+      "id": 10306,
+      "name": "Grenade Loading Mechanism",
+      "cost": 3600,
+      "sci": 18,
+      "lab": 3,
+      "requires": [
+        7212
+      ],
+      "improve": "Improved rate of fire",
+      "desc": "Improves EMP and Acid Cloud rate of fire. _______________________________________  The hydraulic gre"
+    },
+    {
+      "id": 10309,
+      "name": "Precision Trajectory Projection Software",
+      "cost": 2400,
+      "sci": 14,
+      "lab": 2,
+      "requires": [
+        8106,
+        12000
+      ],
+      "improve": "Improved meteor tracking",
+      "desc": "Observatory's meteor targeting system improved. _______________________________________  Revision of"
+    },
+    {
+      "id": 10401,
+      "name": "Phoenix Module",
+      "cost": 3500,
+      "sci": 18,
+      "lab": 3,
+      "requires": [
+        12000
+      ],
+      "improve": "",
+      "desc": "Spaceports may now produce the Phoenix Module. _______________________________________  When deploye"
+    },
+    {
+      "id": 12101,
+      "name": "Heat Dissipation Systems",
+      "cost": 3600,
+      "sci": 18,
+      "lab": 3,
+      "requires": [
+        10102,
+        12000
+      ],
+      "improve": "Increased rate of fire",
+      "desc": "Laser, Rail Gun, and Thor's Hammer rate of fire increased. _______________________________________  "
+    },
+    {
+      "id": 12499,
+      "name": "Children's Module",
+      "cost": 3,
+      "sci": 1,
+      "lab": 1,
+      "requires": [
+        12000
+      ],
+      "improve": "",
+      "desc": "This space intentionally left blank."
+    },
+    {
+      "id": 12599,
+      "name": "Evacuation Module",
+      "cost": 3,
+      "sci": 1,
+      "lab": 1,
+      "requires": [
+        12000
+      ],
+      "improve": "",
+      "desc": "This space intentionally left blank."
+    }
+  ],
+  "plymouth": [
+    {
+      "id": 2701,
+      "name": "Astronomy",
+      "cost": 400,
+      "sci": 5,
+      "lab": 1,
+      "requires": [
+        2000
+      ],
+      "improve": "",
+      "desc": "Our astronomical database has been rebuilt, giving us increased knowledge of the possible resources "
+    },
+    {
+      "id": 2702,
+      "name": "Boptronics",
+      "cost": 400,
+      "sci": 5,
+      "lab": 1,
+      "requires": [
+        2000
+      ],
+      "improve": "",
+      "desc": "Our boptronics database has been restored.  We will soon be able to develop new processes, technique"
+    },
+    {
+      "id": 2703,
+      "name": "Chemistry",
+      "cost": 400,
+      "sci": 5,
+      "lab": 1,
+      "requires": [
+        2000
+      ],
+      "improve": "",
+      "desc": "The chemical database has been reconstructed, and will provide the foundation of future scientific p"
+    },
+    {
+      "id": 2704,
+      "name": "Planetary Sciences",
+      "cost": 400,
+      "sci": 5,
+      "lab": 1,
+      "requires": [
+        2000
+      ],
+      "improve": "",
+      "desc": "Our planetary sciences database has been reassembled."
+    },
+    {
+      "id": 2705,
+      "name": "Social Sciences",
+      "cost": 400,
+      "sci": 5,
+      "lab": 1,
+      "requires": [
+        2000
+      ],
+      "improve": "",
+      "desc": "Reclamation of the social sciences database is complete."
+    },
+    {
+      "id": 3202,
+      "name": "Vulcanology",
+      "cost": 1600,
+      "sci": 12,
+      "lab": 2,
+      "requires": [
+        3000
+      ],
+      "improve": "",
+      "desc": "Early warning of volcanic eruptions now available. _______________________________________ Using dat"
+    },
+    {
+      "id": 3301,
+      "name": "Emergency Response Systems",
+      "cost": 1000,
+      "sci": 10,
+      "lab": 2,
+      "requires": [
+        3000
+      ],
+      "improve": "",
+      "desc": "Structure Factories may now produce DIRT structure kits.  _______________________________________ Di"
+    },
+    {
+      "id": 3302,
+      "name": "Metals Reclamation",
+      "cost": 1000,
+      "sci": 8,
+      "lab": 2,
+      "requires": [
+        3000
+      ],
+      "improve": "",
+      "desc": "Structure Factories may now produce GORF structure kits.  _______________________________________ Th"
+    },
+    {
+      "id": 3303,
+      "name": "Health Maintenance",
+      "cost": 300,
+      "sci": 6,
+      "lab": 2,
+      "requires": [
+        3000
+      ],
+      "improve": "",
+      "desc": "Structure Factories may now produce Medical Center structure kits.  ________________________________"
+    },
+    {
+      "id": 3306,
+      "name": "Leisure Studies",
+      "cost": 600,
+      "sci": 8,
+      "lab": 2,
+      "requires": [
+        3000
+      ],
+      "improve": "",
+      "desc": "Structure Factories may now produce Recreation Facility structure kits.  ___________________________"
+    },
+    {
+      "id": 3401,
+      "name": "Cybernetic Teleoperation",
+      "cost": 1200,
+      "sci": 10,
+      "lab": 2,
+      "requires": [
+        3000
+      ],
+      "improve": "",
+      "desc": "Structure Factories may now produce Vehicle Factory and Robot Command Center structure kits.  ______"
+    },
+    {
+      "id": 3402,
+      "name": "High-Temperature Superconductivity",
+      "cost": 1500,
+      "sci": 10,
+      "lab": 2,
+      "requires": [
+        3000
+      ],
+      "improve": "Increased Power output",
+      "desc": "Tokamak Power output increased.  _______________________________________ Our research into High-Temp"
+    },
+    {
+      "id": 3403,
+      "name": "Hydroponic Growing Media",
+      "cost": 1000,
+      "sci": 12,
+      "lab": 2,
+      "requires": [
+        3000
+      ],
+      "improve": "Increased Food production",
+      "desc": "Food production increased.  _______________________________________ By adjusting the nutrients in th"
+    },
+    {
+      "id": 3405,
+      "name": "Metallogeny",
+      "cost": 1500,
+      "sci": 10,
+      "lab": 2,
+      "requires": [
+        3000
+      ],
+      "improve": "Improved Common Ore yield",
+      "desc": "Common Ore Mine yield increased.  _______________________________________ Our Metallogenic research "
+    },
+    {
+      "id": 3406,
+      "name": "Environmental Psychology",
+      "cost": 800,
+      "sci": 12,
+      "lab": 2,
+      "requires": [
+        3000
+      ],
+      "improve": "Increased Colonist capacity",
+      "desc": "Residence capacity increased.  _______________________________________ Our expanded knowledge of the"
+    },
+    {
+      "id": 3603,
+      "name": "Focused Microwave Projection",
+      "cost": 1500,
+      "sci": 12,
+      "lab": 2,
+      "requires": [
+        3000
+      ],
+      "improve": "",
+      "desc": "The Microwave weapon is now available.  Structure Factories may now produce Guard Post structure kit"
+    },
+    {
+      "id": 3851,
+      "name": "Mobile Weapons Platform",
+      "cost": 1800,
+      "sci": 10,
+      "lab": 2,
+      "requires": [
+        3601,
+        3603
+      ],
+      "improve": "",
+      "desc": "Vehicle Factories may now produce Lynx.  _______________________________________ The 'Lynx' light co"
+    },
+    {
+      "id": 3901,
+      "name": "Advanced Vehicle Power Plant",
+      "cost": 1500,
+      "sci": 10,
+      "lab": 2,
+      "requires": [
+        3402
+      ],
+      "improve": "Increased speed",
+      "desc": "Cargo Truck, Robo-Dozer, and Earthworker speeds improved.  _______________________________________ T"
+    },
+    {
+      "id": 3201,
+      "name": "Seismology",
+      "cost": 1700,
+      "sci": 11,
+      "lab": 2,
+      "requires": [
+        5000
+      ],
+      "improve": "",
+      "desc": "Early warning of seismic events now available. _______________________________________ We have devel"
+    },
+    {
+      "id": 5102,
+      "name": "Robot-Assist Mechanic",
+      "cost": 800,
+      "sci": 6,
+      "lab": 2,
+      "requires": [
+        5000
+      ],
+      "improve": "",
+      "desc": "Structure Factories may now produce Garage structure kits.  _______________________________________ "
+    },
+    {
+      "id": 5108,
+      "name": "Public Performance",
+      "cost": 800,
+      "sci": 8,
+      "lab": 2,
+      "requires": [
+        3306
+      ],
+      "improve": "",
+      "desc": "Structure Factories may now produce Forum structure kits.  _______________________________________ T"
+    },
+    {
+      "id": 5110,
+      "name": "Rare Ore Processing",
+      "cost": 3000,
+      "sci": 16,
+      "lab": 3,
+      "requires": [
+        3405,
+        5000
+      ],
+      "improve": "Can build Rare Ore Mines",
+      "desc": "Structure Factories may now produce Rare Ore Smelter and Rare Metals Storage Tanks structure kits.  "
+    },
+    {
+      "id": 5107,
+      "name": "Magnetohydrodynamics",
+      "cost": 2200,
+      "sci": 12,
+      "lab": 2,
+      "requires": [
+        5110
+      ],
+      "improve": "",
+      "desc": "Structure Factories may now produce MHD Generator structure kits.  _________________________________"
+    },
+    {
+      "id": 5111,
+      "name": "Independent Turret Power Systems",
+      "cost": 2000,
+      "sci": 12,
+      "lab": 3,
+      "requires": [
+        3402,
+        5000
+      ],
+      "improve": "Increased weapon damage",
+      "desc": "Microwave damage increased.  _______________________________________ The R-10 cool-fusion power cell"
+    },
+    {
+      "id": 5116,
+      "name": "Legged Robots",
+      "cost": 2400,
+      "sci": 14,
+      "lab": 2,
+      "requires": [
+        5111
+      ],
+      "improve": "",
+      "desc": "Structure Factories may now produce Arachnid Factory structure kits.  Arachnid Factories may produce"
+    },
+    {
+      "id": 5201,
+      "name": "Advanced Combat Chassis",
+      "cost": 2400,
+      "sci": 12,
+      "lab": 3,
+      "requires": [
+        5110
+      ],
+      "improve": "",
+      "desc": "Vehicle Factories may now produce Panthers. _________________________________ The Panther medium com"
+    },
+    {
+      "id": 5202,
+      "name": "Dissipating Adhesives",
+      "cost": 1600,
+      "sci": 10,
+      "lab": 2,
+      "requires": [
+        5000
+      ],
+      "improve": "",
+      "desc": "The StickyFoam weapon is now available.  _______________________________________  StickyFoam is a po"
+    },
+    {
+      "id": 5305,
+      "name": "DIRT Procedural Review",
+      "cost": 1800,
+      "sci": 10,
+      "lab": 2,
+      "requires": [
+        3301,
+        5000
+      ],
+      "improve": "Improved protection capacity",
+      "desc": "DIRT protection capacity increased; DIRT Worker requirement increased. _____________________________"
+    },
+    {
+      "id": 5306,
+      "name": "Recycler Postprocessing",
+      "cost": 1800,
+      "sci": 10,
+      "lab": 2,
+      "requires": [
+        3302,
+        5000
+      ],
+      "improve": "Improved Metals reclamation",
+      "desc": "Metals recovered through recycling increased."
+    },
+    {
+      "id": 5307,
+      "name": "Automated Diagnostic Examinations",
+      "cost": 1000,
+      "sci": 8,
+      "lab": 2,
+      "requires": [
+        3303,
+        5000
+      ],
+      "improve": "Increased Colonist capacity",
+      "desc": "Medical Center capacity increased. _______________________________________ A new type of robotic med"
+    },
+    {
+      "id": 5309,
+      "name": "Hypnopaedia",
+      "cost": 1000,
+      "sci": 10,
+      "lab": 2,
+      "requires": [
+        3305,
+        5000
+      ],
+      "improve": "Reduced training time",
+      "desc": "Scientist training time reduced. _______________________________________  Our hypnopaedia project ha"
+    },
+    {
+      "id": 5317,
+      "name": "Reinforced Vehicle Construction",
+      "cost": 1600,
+      "sci": 12,
+      "lab": 2,
+      "requires": [
+        5110
+      ],
+      "improve": "Increased hit points",
+      "desc": "Cargo Truck, ConVec, and Evacuation Transport Hit Points increased; production costs of these vehicl"
+    },
+    {
+      "id": 5318,
+      "name": "Robotic Image Processing",
+      "cost": 1600,
+      "sci": 12,
+      "lab": 2,
+      "requires": [
+        5000
+      ],
+      "improve": "Improved sight range",
+      "desc": "Light Tower, Guard Post, and Scout sight ranges improved. _______________________________________ Th"
+    },
+    {
+      "id": 5508,
+      "name": "Electromagnetic Pulsing",
+      "cost": 1500,
+      "sci": 12,
+      "lab": 3,
+      "requires": [
+        5111
+      ],
+      "improve": "",
+      "desc": "The EMP weapon is now available.  _______________________________________  Electromagnetic pulse (EM"
+    },
+    {
+      "id": 5601,
+      "name": "Heat Dissipation Systems",
+      "cost": 3500,
+      "sci": 14,
+      "lab": 3,
+      "requires": [
+        5000
+      ],
+      "improve": "Increased rate of fire",
+      "desc": "Microwave rate of fire increased. _______________________________________  Our new weapons turret he"
+    },
+    {
+      "id": 5602,
+      "name": "Rocket Propulsion",
+      "cost": 2000,
+      "sci": 12,
+      "lab": 3,
+      "requires": [
+        5111,
+        5201
+      ],
+      "improve": "",
+      "desc": "The RPG weapon is now available.  _______________________________________  Our project has prepared "
+    },
+    {
+      "id": 5701,
+      "name": "Lava Defenses",
+      "cost": 1200,
+      "sci": 12,
+      "lab": 3,
+      "requires": [
+        3202,
+        5000
+      ],
+      "improve": "",
+      "desc": "Earthworkers may now deploy Lava Walls.  _______________________________________ In our search for a"
+    },
+    {
+      "id": 5302,
+      "name": "Meteorology",
+      "cost": 1600,
+      "sci": 12,
+      "lab": 2,
+      "requires": [
+        7000
+      ],
+      "improve": "",
+      "desc": "Early warning of electrical storms now available. _______________________________________ We now und"
+    },
+    {
+      "id": 5408,
+      "name": "Forum Reconfiguration",
+      "cost": 600,
+      "sci": 10,
+      "lab": 2,
+      "requires": [
+        5108,
+        7000
+      ],
+      "improve": "Increased Colonist capacity",
+      "desc": "Forum capacity increased. _______________________________________  By redesigning the seats, reconfi"
+    },
+    {
+      "id": 7102,
+      "name": "Explosive Charges",
+      "cost": 1200,
+      "sci": 10,
+      "lab": 2,
+      "requires": [
+        7000
+      ],
+      "improve": "",
+      "desc": "The Starflare weapon is now available.  _______________________________________  The Starflare turre"
+    },
+    {
+      "id": 7103,
+      "name": "Multiple Mine Projectile System",
+      "cost": 1800,
+      "sci": 12,
+      "lab": 2,
+      "requires": [
+        7000
+      ],
+      "improve": "",
+      "desc": "The ESG weapon is now available.  _______________________________________  Our new ESG weapons launc"
+    },
+    {
+      "id": 7104,
+      "name": "Arachnid Weaponry",
+      "cost": 1800,
+      "sci": 12,
+      "lab": 3,
+      "requires": [
+        7000
+      ],
+      "improve": "",
+      "desc": "Arachnid Factories may now produce Scorpions.  _______________________________________ The Scorpion,"
+    },
+    {
+      "id": 7201,
+      "name": "Rare Ore Extraction",
+      "cost": 4000,
+      "sci": 16,
+      "lab": 3,
+      "requires": [
+        7000
+      ],
+      "improve": "Improved Rare Ore yield",
+      "desc": "Rare Ore Mine yield increased.  _______________________________________ Our project has met with lim"
+    },
+    {
+      "id": 7202,
+      "name": "Hot-Cracking Column Efficiency",
+      "cost": 1400,
+      "sci": 14,
+      "lab": 2,
+      "requires": [
+        7000
+      ],
+      "improve": "Reduced Power demand",
+      "desc": "Common Ore Smelter, Rare Ore Smelter, and GORF Power requirements reduced."
+    },
+    {
+      "id": 7203,
+      "name": "Smelter Postprocessing",
+      "cost": 4000,
+      "sci": 16,
+      "lab": 3,
+      "requires": [
+        5306,
+        7000
+      ],
+      "improve": "Increased Metals production",
+      "desc": "Common Ore Smelter and Rare Ore Smelter production increased.  _____________________________________"
+    },
+    {
+      "id": 7206,
+      "name": "Scout-class Drive Train Refit",
+      "cost": 1800,
+      "sci": 12,
+      "lab": 2,
+      "requires": [
+        7000
+      ],
+      "improve": "Increased speed",
+      "desc": "Scout, Robo-Surveyor, and Lynx speeds improved. _______________________________________ The G-75 dri"
+    },
+    {
+      "id": 7213,
+      "name": "Advanced Robotic Manipulator Arm",
+      "cost": 3200,
+      "sci": 14,
+      "lab": 2,
+      "requires": [
+        5102,
+        7000
+      ],
+      "improve": "Improved productivity",
+      "desc": "ConVec, Earthworker, Robo-Dozer, and Garage productivity improved.  ________________________________"
+    },
+    {
+      "id": 5405,
+      "name": "Space Program",
+      "cost": 4000,
+      "sci": 14,
+      "lab": 3,
+      "requires": [
+        7000
+      ],
+      "improve": "",
+      "desc": "Structure Factories may now produce Spaceport structure kits.  Spaceports may produce Single Use Lau"
+    },
+    {
+      "id": 5303,
+      "name": "Severe Atmospheric Disturbances",
+      "cost": 1600,
+      "sci": 12,
+      "lab": 2,
+      "requires": [
+        5302,
+        8000
+      ],
+      "improve": "",
+      "desc": "Early warning of vortexes now available. _______________________________________ The vortexes start "
+    },
+    {
+      "id": 7405,
+      "name": "Scorpion Power Systems",
+      "cost": 1800,
+      "sci": 14,
+      "lab": 3,
+      "requires": [
+        7104,
+        8000
+      ],
+      "improve": "Increased weapon damage",
+      "desc": "Scorpion weapon damage increased. _______________________________________ By installing a slightly l"
+    },
+    {
+      "id": 8105,
+      "name": "Disaster-Resistant Housing",
+      "cost": 600,
+      "sci": 12,
+      "lab": 2,
+      "requires": [
+        3406,
+        8000
+      ],
+      "improve": "",
+      "desc": "Structure Factories may now produce Reinforced Residence structure kits.  __________________________"
+    },
+    {
+      "id": 8201,
+      "name": "Dual-Turret Weapons Systems",
+      "cost": 4500,
+      "sci": 18,
+      "lab": 3,
+      "requires": [
+        8000
+      ],
+      "improve": "",
+      "desc": "Vehicle Factories may now produce Tigers.  _______________________________________ The dual-turret w"
+    },
+    {
+      "id": 8203,
+      "name": "High-Powered Explosives",
+      "cost": 1800,
+      "sci": 12,
+      "lab": 2,
+      "requires": [
+        7102,
+        8000
+      ],
+      "improve": "Increased damage",
+      "desc": "The Supernova weapon is now available.  RPG damage increased. ______________________________________"
+    },
+    {
+      "id": 8301,
+      "name": "Efficiency Engineering",
+      "cost": 4000,
+      "sci": 18,
+      "lab": 2,
+      "requires": [
+        8000
+      ],
+      "improve": "Improved production rate",
+      "desc": "Production time at all factories reduced. _______________________________________ Using time-and-mot"
+    },
+    {
+      "id": 8306,
+      "name": "Enhanced Defensive Fortifications",
+      "cost": 1800,
+      "sci": 12,
+      "lab": 2,
+      "requires": [
+        8000
+      ],
+      "improve": "Improved armor",
+      "desc": "Guard Post armor upgraded.  _______________________________________  The armor applied to our Guard "
+    },
+    {
+      "id": 8307,
+      "name": "Multitainment Console Upgrade",
+      "cost": 500,
+      "sci": 10,
+      "lab": 2,
+      "requires": [
+        3306,
+        8000
+      ],
+      "improve": "Increased Colonist capacity",
+      "desc": "Recreation Facility capacity increased. _______________________________________  Our improved Multit"
+    },
+    {
+      "id": 8309,
+      "name": "Reinforced Panther Construction",
+      "cost": 1800,
+      "sci": 10,
+      "lab": 3,
+      "requires": [
+        5317,
+        8000
+      ],
+      "improve": "Increased hit points",
+      "desc": "Panther Hit Points increased; Panther production cost changed.  ____________________________________"
+    },
+    {
+      "id": 8319,
+      "name": "Spider Maintenance Software Revision",
+      "cost": 1600,
+      "sci": 10,
+      "lab": 2,
+      "requires": [
+        5116,
+        8000
+      ],
+      "improve": "Improve rate of repair",
+      "desc": "Spider repair rate improved.  _______________________________________  Spider Maintenance Software v"
+    },
+    {
+      "id": 8320,
+      "name": "Reduced Foam Evaporation",
+      "cost": 1800,
+      "sci": 12,
+      "lab": 2,
+      "requires": [
+        5202,
+        8000
+      ],
+      "improve": "Improved foam duration",
+      "desc": "StickyFoam duration increased. _______________________________________  We have added stabilizers an"
+    },
+    {
+      "id": 8321,
+      "name": "Arachnid Durability",
+      "cost": 1800,
+      "sci": 14,
+      "lab": 3,
+      "requires": [
+        7104,
+        8000
+      ],
+      "improve": "Increased hit points",
+      "desc": "Spider and Scorpion Hit Points increased. _______________________________________  Our metallurgical"
+    },
+    {
+      "id": 8601,
+      "name": "Skydock",
+      "cost": 3500,
+      "sci": 14,
+      "lab": 3,
+      "requires": [
+        8000
+      ],
+      "improve": "",
+      "desc": "Spaceports may now produce the Skydock.  _______________________________________ Our Skydock will fu"
+    },
+    {
+      "id": 8801,
+      "name": "Ion Drive Module",
+      "cost": 3500,
+      "sci": 14,
+      "lab": 3,
+      "requires": [
+        8601
+      ],
+      "improve": "",
+      "desc": "Spaceports may now produce the Ion Drive Module.  _______________________________________ The ion mo"
+    },
+    {
+      "id": 8901,
+      "name": "Fusion Drive Module",
+      "cost": 3500,
+      "sci": 14,
+      "lab": 3,
+      "requires": [
+        8801
+      ],
+      "improve": "",
+      "desc": "Spaceports may now produce the Fusion Drive Module.  _______________________________________ Our fus"
+    },
+    {
+      "id": 8951,
+      "name": "Fueling Systems",
+      "cost": 3500,
+      "sci": 14,
+      "lab": 3,
+      "requires": [
+        8801
+      ],
+      "improve": "",
+      "desc": "Spaceports may now produce the Fueling Systems.  _______________________________________ The Fueling"
+    },
+    {
+      "id": 7212,
+      "name": "Extended-Range Projectile Launcher",
+      "cost": 4500,
+      "sci": 14,
+      "lab": 3,
+      "requires": [
+        5202,
+        7103,
+        11000
+      ],
+      "improve": "Improved range",
+      "desc": "EMP, StickyFoam, and ESG ranges increased. _______________________________________  The redesigned l"
+    },
+    {
+      "id": 8317,
+      "name": "Meteor Detection",
+      "cost": 1700,
+      "sci": 11,
+      "lab": 2,
+      "requires": [
+        11000
+      ],
+      "improve": "",
+      "desc": "Early warning of meteor strikes now available. _______________________________________ Our Skydock f"
+    },
+    {
+      "id": 10202,
+      "name": "Command Module",
+      "cost": 3500,
+      "sci": 14,
+      "lab": 3,
+      "requires": [
+        11000
+      ],
+      "improve": "",
+      "desc": "Spaceports may now produce the Command Module.  _______________________________________ Several doze"
+    },
+    {
+      "id": 10204,
+      "name": "Solar Power",
+      "cost": 3200,
+      "sci": 14,
+      "lab": 3,
+      "requires": [
+        11000
+      ],
+      "improve": "",
+      "desc": "Structure Factories may now produce Solar Power Arrays.  Spaceports may now produce Solar Power Sate"
+    },
+    {
+      "id": 10205,
+      "name": "Habitat Ring",
+      "cost": 3500,
+      "sci": 14,
+      "lab": 3,
+      "requires": [
+        11000
+      ],
+      "improve": "",
+      "desc": "Spaceports may now produce the Habitat Ring.  _______________________________________ Before and aft"
+    },
+    {
+      "id": 10206,
+      "name": "Sensor Package",
+      "cost": 3500,
+      "sci": 14,
+      "lab": 3,
+      "requires": [
+        11000
+      ],
+      "improve": "",
+      "desc": "Spaceports may now produce the Sensor Package.  _______________________________________ Before we ca"
+    },
+    {
+      "id": 10208,
+      "name": "Stasis Systems",
+      "cost": 3500,
+      "sci": 14,
+      "lab": 3,
+      "requires": [
+        3303,
+        10205
+      ],
+      "improve": "",
+      "desc": "Spaceports may now produce the Stasis Systems.  _______________________________________ The Stasis S"
+    },
+    {
+      "id": 10209,
+      "name": "Orbital Package",
+      "cost": 3500,
+      "sci": 14,
+      "lab": 3,
+      "requires": [
+        11000
+      ],
+      "improve": "",
+      "desc": "Spaceports may now produce the Orbital Package.  _______________________________________ This group "
+    },
+    {
+      "id": 10303,
+      "name": "Advanced Armoring Systems",
+      "cost": 3600,
+      "sci": 16,
+      "lab": 3,
+      "requires": [
+        8201,
+        11000
+      ],
+      "improve": "Increased armor",
+      "desc": "Lynx and Panther armor upgraded. _______________________________________  Materials research done as"
+    },
+    {
+      "id": 10306,
+      "name": "Grenade Loading Mechanism",
+      "cost": 3800,
+      "sci": 16,
+      "lab": 3,
+      "requires": [
+        7212
+      ],
+      "improve": "Improved rate of fire",
+      "desc": "EMP and ESG rate of fire improved. _______________________________________  The hydraulic grenade lo"
+    },
+    {
+      "id": 11101,
+      "name": "Rocket Atmospheric Re-entry System",
+      "cost": 4500,
+      "sci": 14,
+      "lab": 3,
+      "requires": [
+        11000
+      ],
+      "improve": "",
+      "desc": "Our missile re-entry program has had limited success.  We have developed an EMP missile that can be "
+    },
+    {
+      "id": 10401,
+      "name": "Phoenix Module",
+      "cost": 3500,
+      "sci": 14,
+      "lab": 3,
+      "requires": [
+        12000
+      ],
+      "improve": "",
+      "desc": "Spaceports may now produce the Phoenix Module.  _______________________________________ When deploye"
+    },
+    {
+      "id": 12499,
+      "name": "Children's Module",
+      "cost": 3,
+      "sci": 1,
+      "lab": 1,
+      "requires": [
+        12000
+      ],
+      "improve": "",
+      "desc": "This space intentionally left blank."
+    },
+    {
+      "id": 12599,
+      "name": "Evacuation Module",
+      "cost": 3,
+      "sci": 1,
+      "lab": 1,
+      "requires": [
+        12000
+      ],
+      "improve": "",
+      "desc": "This space intentionally left blank."
+    }
+  ]
+}
